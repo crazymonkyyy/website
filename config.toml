@@ -27,9 +27,9 @@ pygmentsCodeFences = true
 
 [params]
     tagline = "A Hugo theme for creative and technical writing"
-    description = "Kiera: A Hugo theme for creative and technical writing."
+    description = ""
     #images = [""] #This is used for opengraph/twitter cards.
-    customCSS = []  #Optional Customised CSS
+    #customCSS = ["css/my.css"]  #Optional Customised CSS
     #favicon = ""
     #utterancesRepo = "username/repository"
     #utterancesIssueTerm = "pathname"
@@ -37,7 +37,7 @@ pygmentsCodeFences = true
     #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
     #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
     #google_fonts = ["Staatliches"] # Adds additional google fonts
-    #disableDarkModeCSS = false # disables css style for users using dark-mode
+    disableDarkModeCSS = true # disables css style for users using dark-mode
 
 # uncomment to enable the Tags link on the main toolbar
 #  [[menu.main]]

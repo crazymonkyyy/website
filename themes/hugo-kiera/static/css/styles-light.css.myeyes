@@ -3,8 +3,7 @@ body {
   padding: 0;
   overflow-x: hidden;
   font-family: "Roboto Slab", serif;
-  color: #ffffff;
-  background: #2A2829;
+  color: #333333;
 }
 
 h1,
@@ -47,7 +46,7 @@ time {
 }
 
 #container header h1 a {
-  color: #ffffff;
+  color: #000000;
 }
 
 #container header ul {
@@ -90,7 +89,7 @@ time {
 }
 
 #container nav ul li a.active {
-  border-bottom: 0.5em solid #ffffff;
+  border-bottom: 0.5em solid #666666;
 }
 
 #container main {
@@ -148,7 +147,7 @@ time {
 }
 
 #container main article > pre {
-  background-color: #a0a04b;
+  background-color: #ffffcc;
   overflow-x: auto;
   padding: 0.8em;
   font-size: 0.9em;
@@ -167,7 +166,7 @@ time {
 
 #container main article p code {
   padding: 0.2em;
-  background-color: #d03232;
+  background-color: #ffcccc;
   font-size: 0.9em;
 }
 
@@ -264,7 +263,7 @@ width: 100%;
 }
 
 a {
-  color: #bb68fc;
+  color: #666666;
   text-decoration: none;
 }
 
@@ -386,11 +385,11 @@ table thead {
 
 blockquote {
   margin: 1em;
-  border-left: solid 0.1em #797979;
+  border-left: solid 0.1em #cecece;
   padding: 0.5em 2em;
   position: relative;
-  background-color: #3e3b3c;
-  box-shadow: 0 -1px 0 #797979 inset;
+  background-color: #efefef;
+  box-shadow: 0 -1px 0 #bbbbbb inset;
 }
 
 blockquote::before {

@@ -2,26 +2,102 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
    <title>Categories on monkyyy.science</title>
-   <link>https://www.example.org/categories/</link>
+   <link>monkyyy.science/categories/</link>
    <description>Recent content in Categories on monkyyy.science</description>
    <generator>Hugo -- gohugo.io</generator>
+   <lastBuildDate>Mon, 10 Aug 2020 00:00:00 +0000</lastBuildDate>
    
-       <atom:link href="https://www.example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+       <atom:link href="monkyyy.science/categories/index.xml" rel="self" type="application/rss+xml" />
    
    
      <item>
-       <title>indroduction</title>
-       <link>https://www.example.org/posts/indroduction/</link>
-       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+       <title>Lysander Spooner is still relevant</title>
+       <link>monkyyy.science/posts/lysander_spooner_is_still_relivant/</link>
+       <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
        
-       <guid>https://www.example.org/posts/indroduction/</guid>
+       <guid>monkyyy.science/posts/lysander_spooner_is_still_relivant/</guid>
+       <description>&lt;p&gt;The world is still shit.&lt;/p&gt;
+&lt;p&gt;The naive look at history and think it is over, the holocaust can&amp;rsquo;t happen again, democracy is peak humanity, slavery ended and enjoying djanjo unchained and or the white giult football movie makes you a good person, good enough that you can go harass poeple on twitter in fact.&lt;/p&gt;
+&lt;p&gt;The naive may be slightly stiring in thier sleep this year, but make no mistake, &lt;em&gt;the majority will never wake, and the majority of those who wake will be groggy.&lt;/em&gt; Lets review some basic facts of the world:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;There is a genocide ongoing in china, if you believed anything nice about yourself when you heard about the holocaust or slavery, consider your &amp;ldquo;I would&amp;rsquo;ve helped the underground railroad&amp;rdquo; implies right now.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The prisions are filled with poeple who never had a trail and airn&amp;rsquo;t even accused of a (real) crime&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;If you work in a standard way 30% of your income will go to fund war in the middle east&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Poeple get awfully caught up in using xim/xer pronouns and not using the word blacklist, recycling(which means it gets burned in china, please don&amp;rsquo;t recycle) or if ethics should be this or that. &lt;strong&gt;FUCK THAT. Consider the following:&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;If your a gun manufacturer and a uyghur activist askes for a shipment of gun off book, consider ignoring the fbi database and doing that. Prehaphs you&amp;rsquo;ll be part of a &lt;a href=&#34;http://praxeology.net/LS-PAS.htm&#34;&gt;plan for the abolition of slavery.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If someone is on drugs and being a nuance, maybe don&amp;rsquo;t call the cops after all &lt;a href=&#34;https://cdn.mises.org/vices_are_not_crimes.pdf&#34;&gt;vices are not crimes.&lt;/a&gt;  In fact consider not calling the cops unless you specifically want that person dead as cops do have ichy trigger fingers in $current_year, and yes even if they are white.&lt;/p&gt;
+&lt;p&gt;Dodge some taxes, &lt;a href=&#34;http://www.freedomforallseasons.org/TaxFreedomEmail/LysanderSpoonerNoTreason.pdf&#34;&gt;no treason&lt;/a&gt;. You personally never signed the founding documents of your nation.&lt;/p&gt;
+&lt;p&gt;Spooner is the father of anarcho-capitalism; the movement is young and its been poorly stewarded, and honestly even after all my reading, this is all half-baked and I&amp;rsquo;m eyeing large figures as controlled oppisition. &lt;strong&gt;BUT&lt;/strong&gt;, there airn&amp;rsquo;t many extermist groups willing to biuld something and very few who oppose causal voilence and the world is always in need of drastic change.&lt;/p&gt;
+&lt;p&gt;I believe what the world needs is poeple who don&amp;rsquo;t do evil, dragging their way out of the shit of the past by sluggish movements towards what may in fact be sunlight. What system we should biuld are rather up in the air, but consider that if democracy is peak humanity, humanity will likely nuke itself after maybe 50 more years of this soul crushing joke of a society; with the one gasp of air from industerialization we may need to get out of the shitpile now least we never get another.&lt;/p&gt;
+&lt;p&gt;I don&amp;rsquo;t believe in postive obligation, asking someone to hide a jew means they were a target, but mind your negitive obligations calling the cops on someone for drug use is very much a choice. Accepting money for censorious chineses corps stopping poeple from talking about hong kong, is a choice. Firing someone being harrassed by a twitter mob, is a choice.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>copy and paste imports in d</title>
+       <link>monkyyy.science/posts/copy_and_paste_imports_in_d/</link>
+       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/copy_and_paste_imports_in_d/</guid>
+       <description>&lt;p&gt;Orginally when I was looking for a lang, I had a single red flag when looking at d&amp;rsquo;s web site; which when compared to other randomly selected webshit langs is amazing. However it still stands that the d devs shit on good parts of c, when allow me to be blunt &lt;strong&gt;&lt;em&gt;c is the best lang aviable;&lt;/em&gt;&lt;/strong&gt; thats more of a reflection on the other langs that exist, its really showing its age, but I stand by that statement until a suitable c replacement gets made.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;We are better the c
+&lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;c is to much fun we cant have that
+&lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;Using monkey as a negitive adjective to mean silly
+&lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;
+&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;Scoping is a good thing
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&#34;https://dlang.org/articles/mixin.html&#34;&gt;https://dlang.org/articles/mixin.html&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Excuse me? That is not enough reverence to jank, c, or monkeys.&lt;/p&gt;
+&lt;p&gt;I digress, I &lt;em&gt;like&lt;/em&gt; c imports for being purely copy and paste, moving code around should the right of the programmer without restrictions, and scoping rules are &lt;em&gt;&lt;strong&gt;oft&amp;rsquo;&lt;/strong&gt;&lt;/em&gt; a restriction, and can cause a rewrite.&lt;/p&gt;
+&lt;p&gt;However they are possible in d, probally not intentionally so don&amp;rsquo;t show this to the devs, they may get some anti-fun ideas.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-d&#34; data-lang=&#34;d&#34;&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;mixin&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;import&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;foo.mix&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;));&lt;/span&gt;
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;A bit of jank and shrill poeple who ever see your code being yelly are a small price to pay to avoid erroneous and non-comfy reformating or even leaving code where it doesn&amp;rsquo;t belong just to keep it in scope.&lt;/p&gt;
+&lt;p&gt;You will however need to use to -J=. compiler option.&lt;/p&gt;
+&lt;p&gt;Throw these options in your dub.json if your using dub.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-css&#34; data-lang=&#34;css&#34;&gt;
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;dflags&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-mixin=mix&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;-J=./source&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;],&lt;/span&gt;
+
+  &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;extraDependencyFiles&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;:[&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;\*.mix&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;],&lt;/span&gt; 
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And I&amp;rsquo;m declaring the (monkyyy) offical standard style guide for using copy and paste imports in d require them to have a .mix file extension; its on page 4.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>indroduction</title>
+       <link>monkyyy.science/posts/indroduction/</link>
+       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/indroduction/</guid>
        <description>&lt;p&gt;Hello internet, I&amp;rsquo;m monkyyy, I&amp;rsquo;m an opinionated asshole. Welcome to my storage of opinions.&lt;/p&gt;
 &lt;p&gt;Eventually I may get an email for this site, or a comment section. But currently I&amp;rsquo;m just screaming into the void trying to be comfy while doing it. The world is censory out there, and all based on website that runs slow, drops infomation and don&amp;rsquo;t nesserily allow me to inline an image or cross out text.&lt;/p&gt;
 &lt;p&gt;I will probaly focus on my following opinions:&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;-anarcho-capitalism&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;-anti-scientism&lt;/p&gt;
-&lt;p&gt;-software minimalism&lt;/p&gt;
-&lt;p&gt;-programing games in d&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;anarcho-capitalism&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;anti-scientism&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;software minimalism&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;programing games in d&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;Consider yourself warned.&lt;/p&gt;
 </description>
      </item>

@@ -3,23 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.example.org/categories/</loc>
+    <loc>monkyyy.science/categories/ancap/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.org/posts/indroduction/</loc>
+    <loc>monkyyy.science/categories/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.org/</loc>
+    <loc>monkyyy.science/posts/lysander_spooner_is_still_relivant/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.org/posts/</loc>
+    <loc>monkyyy.science/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://www.example.org/tags/</loc>
+    <loc>monkyyy.science/posts/</loc>
+    <lastmod>2020-08-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>monkyyy.science/posts/copy_and_paste_imports_in_d/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>monkyyy.science/posts/indroduction/</loc>
+    <lastmod>2020-08-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>monkyyy.science/tags/</loc>
   </url>
   
 </urlset>
