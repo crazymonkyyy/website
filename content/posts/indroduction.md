@@ -3,7 +3,7 @@
 
 title: "indroduction"
 
-date: "Aug-02-20"
+date : "2020-08-01"
 
 draft: "false"
 
@@ -15,13 +15,13 @@ Eventually I may get an email for this site, or a comment section. But currently
 
 I will probaly focus on my following opinions:
 
-_-anarcho-capitalism_
+- anarcho-capitalism
 
--anti-scientism
+- anti-scientism
 
--software minimalism
+- software minimalism
 
--programing games in d
+- programing games in d
 
 Consider yourself warned.
 

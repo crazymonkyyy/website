@@ -9,5 +9,22 @@
        <atom:link href="https://www.example.org/tags/index.xml" rel="self" type="application/rss+xml" />
    
    
+     <item>
+       <title>indroduction</title>
+       <link>https://www.example.org/posts/indroduction/</link>
+       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+       
+       <guid>https://www.example.org/posts/indroduction/</guid>
+       <description>&lt;p&gt;Hello internet, I&amp;rsquo;m monkyyy, I&amp;rsquo;m an opinionated asshole. Welcome to my storage of opinions.&lt;/p&gt;
+&lt;p&gt;Eventually I may get an email for this site, or a comment section. But currently I&amp;rsquo;m just screaming into the void trying to be comfy while doing it. The world is censory out there, and all based on website that runs slow, drops infomation and don&amp;rsquo;t nesserily allow me to inline an image or cross out text.&lt;/p&gt;
+&lt;p&gt;I will probaly focus on my following opinions:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;-anarcho-capitalism&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;-anti-scientism&lt;/p&gt;
+&lt;p&gt;-software minimalism&lt;/p&gt;
+&lt;p&gt;-programing games in d&lt;/p&gt;
+&lt;p&gt;Consider yourself warned.&lt;/p&gt;
+</description>
+     </item>
+   
  </channel>
 </rss>
