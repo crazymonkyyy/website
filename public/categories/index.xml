@@ -5,10 +5,378 @@
    <link>monkyyy.science/categories/</link>
    <description>Recent content in Categories on monkyyy.science</description>
    <generator>Hugo -- gohugo.io</generator>
-   <lastBuildDate>Wed, 19 Aug 2020 00:00:00 +0000</lastBuildDate>
+   <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate>
    
        <atom:link href="monkyyy.science/categories/index.xml" rel="self" type="application/rss+xml" />
    
+   
+     <item>
+       <title>tiling DE part 3 The problem</title>
+       <link>monkyyy.science/posts/tiling_de_part_3_the_problem/</link>
+       <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/tiling_de_part_3_the_problem/</guid>
+       <description>&lt;p&gt;So if tiling is so great why isn&amp;rsquo;t everyone using it.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;considerthefollowing.jpg&#34; alt=&#34;considerthefollowing.jpg&#34;&gt;&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Everyone is in the habit of being wrong. Just generally.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Historical inertia. Most software that has been written to be in the standard floating environment.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Composing workflows means composing applications. Which are spotty in the general user space.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;For example, look at this timer app given an unusual size:&lt;/p&gt;
+&lt;p&gt;Trash, unusable trash, awful, horrifying, jank. Buts its collection of buttons and some numbers, it&amp;rsquo;s a touch tricky but getting it to work properly but isn&amp;rsquo;t rocket surgery.&lt;/p&gt;
+&lt;p&gt;Take my timer app for example:&lt;/p&gt;
+&lt;p&gt;Why? Why does mine work, when presumably the other one had more help from a toolkit and probably a less lazy dev; the &amp;ldquo;toolkits&amp;rdquo; are for floating wm&amp;rsquo;s, all of them.&lt;/p&gt;
+&lt;p&gt;For the unaware, programmers don&amp;rsquo;t remake everything from scratch, in this case, if your making a GUI app, you use a toolkit, a collection of software to make buttons and text and system theming work. They are usually tied to an OS or a desktop environment in the case of gtk and qt. In my opinion, its the benefit of a DE is having a toolkit define how to handle fonts and colors. Both the programmer and the user want a system color theme, I as a user don&amp;rsquo;t want half my apps to be blinding theme, and prefer dark themes.&lt;/p&gt;
+&lt;p&gt;And I, as a programmer, don&amp;rsquo;t give a rats ass about color theory, let someone else solve the problem of picking colors. And really really do not want to deal with the madness that is font rendering.&lt;/p&gt;
+&lt;p&gt;So apps made with toolkits tend to fit nicely with their associated wm/os. But tiling wm&amp;rsquo;s don&amp;rsquo;t have one, at all. So the first order of business for making tiling better would be to make one, that places more emphasis on resizing. Which is actionable.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>I want a tiling de part 2 your workflow</title>
+       <link>monkyyy.science/posts/i_want_a_tiling_de_part_2_your_workflow/</link>
+       <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/i_want_a_tiling_de_part_2_your_workflow/</guid>
+       <description>&lt;p&gt;Here&amp;rsquo;s the thing, you use janky tiling as is. It&amp;rsquo;s frankly rare to find someone engaging with their window manager.&lt;/p&gt;
+&lt;p&gt;I expect you to do a very small subset of actions with your computer:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;You full screen a web browser, always, no exception.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You use a software suite that requires fullscreen and if it&amp;rsquo;s a complex task it&amp;rsquo;s built-in and has its own rolled tiling system.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You use the light tiling systems that most desktops have been adopted, by dragging the software to the side of the screen. Windows calls it &amp;ldquo;snap assist&amp;rdquo;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;All of these while the window can in theory be defined by the user, in reality, you did a ritual you have the system do some math in the background to handle windowing for you; and really trivial things as well.&lt;/p&gt;
+&lt;p&gt;Ide&amp;rsquo;s are generally speaking two text editors split horizontally with a terminal. I have text editors and a terminal installed, and I like my actual terminal better than the usually subpar one.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;monkyyy.science/images/vscode-screenshot.gif&#34; alt=&#34;vscode-screenshot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;This is hardly uncommon:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;monkyyy.science/images/bitwig.png&#34; alt=&#34;bitwig&#34;&gt;
+&lt;img src=&#34;monkyyy.science/images/blender.jpg&#34; alt=&#34;blender&#34;&gt;
+&lt;img src=&#34;monkyyy.science/images/cutemarked.png&#34; alt=&#34;cutemarked&#34;&gt;
+&lt;img src=&#34;monkyyy.science/images/gummi.png&#34; alt=&#34;gummi&#34;&gt;
+&lt;img src=&#34;monkyyy.science/images/Kdenlive.png&#34; alt=&#34;Kdenlive&#34;&gt;
+&lt;img src=&#34;monkyyy.science/images/toonz.png&#34; alt=&#34;toonz&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Generally speaking, you have a toolbar, split the window into half or thirds, if you hide something it&amp;rsquo;s with tabs. You&amp;rsquo;d need some sort of sane tabbing interface, but tabbing is something a window manager can do.&lt;/p&gt;
+&lt;p&gt;Yet every program must reimplement the logic, and you can&amp;rsquo;t replace the terrible bits, &lt;em&gt;you can&amp;rsquo;t compose your workflow&lt;/em&gt;. Its the half baked general idea that someone else thought poeple would like.&lt;/p&gt;
+&lt;p&gt;Your ide is awful like the something from JetBrains, which takes seconds to start up and likely crashes. My ide is a 10 line bash script, and I picked my text editor and terminal separately.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;monkyyy.science/images/bspwm.png&#34; alt=&#34;bspwm&#34;&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cd $1
+textadept -f &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;ls&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; &amp;amp;
+bspc node -p east --follow
+textadept -f -n &amp;amp;
+bspc node -p south -o .6 --follow
+nemo $1 &amp;amp;
+sleep &lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
+bspc node -p south -o .15 --follow
+alacritty --working-directory $1 &amp;amp;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I am &lt;em&gt;&lt;strong&gt;QUITE&lt;/strong&gt;&lt;/em&gt; confindent in this, you don&amp;rsquo;t half hide windows like they are papers on a desk.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>use my code</title>
+       <link>monkyyy.science/posts/use_my_code/</link>
+       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/use_my_code/</guid>
+       <description>&lt;p&gt;So I&amp;rsquo;ve written some public code during my time with D but no one is using it, use my code(listed is rough order of quality)&lt;/p&gt;
+&lt;h3 id=&#34;range-matchhttpsgithubcomcrazymonkyyyrange-match&#34;&gt;&lt;a href=&#34;https://github.com/crazymonkyyy/range-match&#34;&gt;Range-match&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Range match, is a partial implementation of pattern matching. Focused on cleanly allowing complex &amp;ldquo;stuctured&amp;rdquo; programming. The main detail is that its requires the logic to be written using ranges such as 1&amp;lt;=x&amp;lt;=3. Replacing particularly nasty if-else chains.&lt;/p&gt;
+&lt;h3 id=&#34;genertic-radixhttpsgithubcomcrazymonkyyyradix&#34;&gt;&lt;a href=&#34;https://github.com/crazymonkyyy/radix&#34;&gt;Genertic radix&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A specialized fast sort, countary to poplur belief radix sort can be used for more then unsigned ints. It will require a bit of work and a bit of thoery, but as the basic unit of computation contains more infomation then the bool of the comparision sorts it should be faster.&lt;/p&gt;
+&lt;h3 id=&#34;layouthttpsgithubcomcrazymonkyyylayoutexperiment&#34;&gt;&lt;a href=&#34;https://github.com/crazymonkyyy/layoutexperiment&#34;&gt;Layout&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A experiment to impliment css grids stand alone. See my rants on tiling window managers.&lt;/p&gt;
+&lt;h3 id=&#34;monkeydatahttpsgithubcomcrazymonkyyymonkeydata&#34;&gt;&lt;a href=&#34;https://github.com/crazymonkyyy/monkeydata&#34;&gt;Monkeydata&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;A &amp;ldquo;aosoa&amp;rdquo; template to try and make this data-oriented design primitive comfy to work with and not a bunch of manual work like it would be in c or the clusterfuck of boilerplate that is unity ecs.&lt;/p&gt;
+&lt;h3 id=&#34;trash-utility-fileshttpsgithubcomcrazymonkyyydatastuctureplaygroundtreemastercopy20and20pasted20ulility20files20of20questionable20quality&#34;&gt;&lt;a href=&#34;https://github.com/crazymonkyyy/datastuctureplayground/tree/master/copy%20and%20pasted%20ulility%20files%20of%20questionable%20quality&#34;&gt;trash utility files&lt;/a&gt;&lt;/h3&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>I want a tiling DE part 1</title>
+       <link>monkyyy.science/posts/i_want_a_tiling_de_part_1/</link>
+       <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/i_want_a_tiling_de_part_1/</guid>
+       <description>&lt;p&gt;I want a tiling desktop environment.&lt;/p&gt;
+&lt;p&gt;&amp;hellip; let me explain:&lt;/p&gt;
+&lt;p&gt;So you normal computer user, everything you&amp;rsquo;ve known was based on the &amp;ldquo;desktop metaphor&amp;rdquo;, your an office worker in the black and white days, and your work gets a doohicky that confuses you. You don&amp;rsquo;t have time to learn anything, you need to work on the documents and fax them to management. So they made a half baked translation of your old work into what computers are doing. It&amp;rsquo;s fucking awful, but its what they tried, so you would store your work in a filing cabinet, you would take labeled folders out of the filing cabinet to take to your desk and you would take files out of the folder to then edit; on your desktop. And for some godforsaken reason, because those papers would be moved manually, it was deemed more user friendly to make the &amp;ldquo;paper&amp;rdquo;/windows floating as if they were paper on a desk like fucking cavemen.&lt;/p&gt;
+&lt;p&gt;It was intended to be invisible and everyone got used to it, but it&amp;rsquo;s wrong. In the modern era, after people used these computers for decades, you instantly full-screen everything or drag them to the side to spilt the screen in half. Because computers can and should manage windows for you. That splitting the window in half is weak tiling.&lt;/p&gt;
+&lt;p&gt;So the function of a window manager is to manage places for programs to draw their pictures, to then display them. A floating window manager is like a mother of 8 managing the pictures of children on the fridge using magnets, you drag around the taskbar/magnet to move the paper. A tiling window manager is like a well organized scrapbook, with pages/workspaces, you don&amp;rsquo;t cover up a photo, you make new pages.&lt;/p&gt;
+&lt;p&gt;So what&amp;rsquo;s the difference between a window manager and a desktop environment?, mostly scale; for example kde has a little thing to connect a phone to your computer in a fancy pants sharing clipboards, files and even emulating a mouse from the touch screen. Bspwm doesn&amp;rsquo;t have an android app to emulate a mouse, bspwm is made up of a total of three binaries, I don&amp;rsquo;t even know how to count how many kde has, but let&amp;rsquo;s just say 1000.&lt;/p&gt;
+&lt;p&gt;Kde is an extreme example, what I would want would be more like lxde/qt project, maintaining a few dozen or so small &amp;ldquo;natural&amp;rdquo; projects, your notepads, your music players, all tied together so they look the same and have the same dependencies and have a bit of lube t make them fit together better.&lt;/p&gt;
+&lt;p&gt;As it stands tiling wm have a special requirement in that the wm have resize demands, not suggestions. For a well organized automated system, you must fit where you&amp;rsquo;re placed, several simple apps simply don&amp;rsquo;t or act weirdly. From the web the term is &amp;ldquo;reactive&amp;rdquo;, finding apps that are adequately reactive is hard. Its simply not on any other projects checkbox that a window at 100x200 pixels should have some functionality, even if that app is a music player and that could easily fit a play and pause button.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>brown folded eggs</title>
+       <link>monkyyy.science/posts/brown_folded_eggs/</link>
+       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/brown_folded_eggs/</guid>
+       <description>&lt;p&gt;Sooo.. I like soft eggs, but traditionally the soft egg styles are reserved for fancy shit, french omelets, quite frankly I will not be beating eggs for 5 minutes for half a meal, listening for butter &amp;ldquo;singing&amp;rdquo;, or damaging a pan for a daily breakfest. Or &lt;a href=&#34;https://www.youtube.com/watch?v=ZCh1gnN_j-g&#34;&gt;tornado/dressed rice&lt;/a&gt;, also fantastic, but I don&amp;rsquo;t think I can twist my fingers to do that shit daily, and I don&amp;rsquo;t always have leftover rice.&lt;/p&gt;
+&lt;p&gt;A soft egg is a simple concept, high heat and move the finished eggs out of the way, yet the fear about undercooked eggs has pushed it to the edges; and I say NO.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;In a medium frying pan heat 3(yes 3 don&amp;rsquo;t be a snob) pats of butter on medium- medium high heat.&lt;/p&gt;
+&lt;p&gt;Beat 5 eggs with soysause, salt, pepper and cayenne, quite heavily. Break up 90% of the egg white strings.&lt;/p&gt;
+&lt;p&gt;When the butter is past &amp;ldquo;singing&amp;rdquo;, litterally boiling and taking on some color, add the eggs.&lt;/p&gt;
+&lt;p&gt;With a pair of chopsticks, pull the film/sheet of cooked eggs into wrinkly piles repeatly, until no new egg fills the botton of the pan, tilt the pan to drain uncooked eggs onto the bottom of the pan and give it 30 more seconds to then dump on a plate.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>how should standard libs be managed</title>
+       <link>monkyyy.science/posts/how_should_standard_libs_be_managed/</link>
+       <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/how_should_standard_libs_be_managed/</guid>
+       <description>&lt;p&gt;So, an under appreciated feature of a lang is the std. Honestly at this point I think it could make or break a lang. Having a good std means its easy to write acceptable code from the gate.&lt;/p&gt;
+&lt;p&gt;C-style langs historically require immense effort to &lt;strong&gt;render&lt;/strong&gt; hello world, I believe this is the singular reason webshit is winning, because the js can draw things &amp;ldquo;easily&amp;rdquo; with the js os known as chromium. While C has these whole nightmares to make a cross platform ui. Why tho?, couldn&amp;rsquo;t you just have simple window rendering in the std? You probaly wouldn&amp;rsquo;t want to write a game engine with an std but text drawing and simple shapes should be there.&lt;/p&gt;
+&lt;p&gt;Also there was this whole mess with python with its trasition from 2 to 3. I&amp;rsquo;m fuzzy on the details but it sounds like they over did it and assumed far to much complience.&lt;/p&gt;
+&lt;p&gt;And then D lang, whitch turn down my appication to try to improve the std, in &amp;ldquo;SAoC&amp;rdquo; and has horror storys on community managiment.&lt;/p&gt;
+&lt;p&gt;With those issues in mind, heres roughly what I would do:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Std writing should be trivial to get into, you can sumbit an &amp;ldquo;expmerimental&amp;rdquo; lib sith almost no approval process. The writter of that lib owns thier experimental branch and can write to it as they see fit. No bullshit about not changing it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Libs have major version numbers on the libs where &amp;ldquo;std.whatever&amp;rdquo; points to the current stable version, &amp;ldquo;std.whatever.expermental&amp;rdquo; points to the raw expermental version getting live updates, with a limit of non-bug fixing updates being 6 months apart. While there is depercation, old versions of the std lib should never become unaccessable. &amp;ldquo;Import std.functions.3&amp;rdquo; should load 3rd major version of the code even if &amp;ldquo;functions&amp;rdquo; is on its 7th version. So even if there is a breaking change, you just look up the version number and append it to single lines, or if your working on something meant to be hyper stable write a style guide that requires std imports to specify the version number.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The std should be expansive, window rendering, several competing collections of data stuctures, the kicten sink. There should be standards of quality, but proving a general usecase should not be a thing that holds something back.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;When theres is conflict where both sides have working code, then some sort of bureaucratic process should get involved; for example an simd xml reader thats super complient with xml version $currentminusone and a oo xml reader that adapted quickly, if &lt;strong&gt;both&lt;/strong&gt; been written then there is a reason to have some conflict other who wrote better code and who has the std.xml namespace and you need a process to handle it(with the loser getting std.xmlnew or something). But before that point anyone anti having something in the std can fuck right off either they can choose not to use that code or get working on thier own code to prove it can be done better.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Tools should be easy to come by, and the unmoderated ecosystem with random biuld tool seems awful, and std thats a very large toolbox so you don&amp;rsquo;t need an outside system should be preferred.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>email me</title>
+       <link>monkyyy.science/posts/email_me/</link>
+       <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/email_me/</guid>
+       <description>&lt;p&gt;Has anyone found this site yet? If so, email me at &lt;a href=&#34;mailto:monkyyy@cocaine.ninja&#34;&gt;monkyyy@cocaine.ninja&lt;/a&gt;&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>web is bloat what would I do</title>
+       <link>monkyyy.science/posts/web_is_bloat_what_would_i_do/</link>
+       <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/web_is_bloat_what_would_i_do/</guid>
+       <description>&lt;p&gt;The webshit is webshit, I imagine anyone who manages to find this blog will agree that the socail media web is bad or is a &amp;ldquo;systems&amp;rdquo; programmer who looks at webshit with disgust; so not going into detail, so what would I replace it with?&lt;/p&gt;
+&lt;p&gt;I see 3 main tasks as part of the web:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Layout&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Rich text with a focus on links&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Generic system aided user messages&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;(I would add a 4th, a flash replacement, but that would be another rant.)&lt;/p&gt;
+&lt;p&gt;Html only managed the 2nd, and the first historically was a nightmare, poeple had space partition trees in thier mind for so long; &lt;strong&gt;my&lt;/strong&gt; wm is &amp;ldquo;Binary Space Partition Window Manager&amp;rdquo; and let me tell you, poeple don&amp;rsquo;t think in 1.5d trees they think about layout in grids I like tiling wm&amp;rsquo;s but its still jank. And to my knowlegde no one has solved the thrid problem cleanly.&lt;/p&gt;
+&lt;h2 id=&#34;layout&#34;&gt;Layout&lt;/h2&gt;
+&lt;p&gt;So, layout is futher sub divided into 2 parts, grid defination and grid coloring.&lt;/p&gt;
+&lt;p&gt;If you give poeple enough dials in your grid layout they can compose websites that most poeple find pleasing, whether thats think  margins, and collection of images, having a logo at the top corner and a wall of text, whatever. Trational html defined &amp;ldquo;frames&amp;rdquo; which are like the space trees; don&amp;rsquo;t, learn from that mistake. You grab a list of 95% of the definations of css grids poeple ussally poke and allow poeple to define it as the header of the web page. Oh and have muliple for different screen sizes.&lt;/p&gt;
+&lt;p&gt;Followed by that header is a grid coloring; even if humans think in grids they do this silly thing where they will define content as being bigger then a single grid cell; so you have an n by m 2d array of lets say 8 length strings which will &amp;ldquo;color&amp;rdquo; the boxes. The strings link to a block of text below and boxes that share a &amp;ldquo;color&amp;rdquo; are touching are combined.&lt;/p&gt;
+&lt;h2 id=&#34;rich-text&#34;&gt;Rich text&lt;/h2&gt;
+&lt;p&gt;Markdown is pretty good. The links are a bit of a strange choice but you have blocks of text that is markdown.&lt;/p&gt;
+&lt;p&gt;Oh and color hints; not color definations; thats a topic I&amp;rsquo;m not super on top of but color multiplication is possible, so the user would have thier system theme that has a list of colors, a dark theme would have white text on black and light theme would have black text on white, a web site could ask that thier background is more blue and broswer would make a dark blue for the dark theme and a light blue for the blinding theme via some sort of color muliplier.&lt;/p&gt;
+&lt;p&gt;So you have a header of the name of the content for the layout, some color hints, with a block of text of probaly an expanded markdown; like my blog is generated from markdown, its functional.&lt;/p&gt;
+&lt;p&gt;Lets say when injecting an image or a video in markdown that the file type determines what subsystem renders it.&lt;/p&gt;
+&lt;h2 id=&#34;system-aided-user-messages&#34;&gt;System aided user messages&lt;/h2&gt;
+&lt;p&gt;So this is the tricky bit, defining the 2 way communication; this would also go into the grid coloring system. And some heading.&lt;/p&gt;
+&lt;p&gt;Fundmentally what a pizza site is doing with its layers and layers of js is asking you for an order and some bank info; this is a message. And users are not going to be learning its internal data system and would be very upset if they moved things around during a refactor.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;d point at zenity (it creates popup windows for bash scripts, like files manager, calenders etc.), and some posix. You have some posix syntax to generate a file with some user help and a system of envermental varibles like say $VISAID, and it will generate and send a text file according to some spefication when the user hits send.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Makepiza&amp;rdquo; of the pizza website could append $temporderdetails while &amp;ldquo;checkout&amp;rdquo; could be something like, encypt(pizzasitekey,$temporderdetails $VISAID userinput &amp;ndash;tip &amp;ldquo;20.00 usd&amp;rdquo;)&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>I want to go to an antimask protest</title>
+       <link>monkyyy.science/posts/i_want_to_go_to_an_antimask_protest/</link>
+       <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/i_want_to_go_to_an_antimask_protest/</guid>
+       <description>&lt;p&gt;Naturally, I&amp;rsquo;m a &amp;ldquo;covid-denier&amp;rdquo;; despite the fact I made a death toll prediction feb 5th before the medical estimement raised the alram, I did my speculating, made my conclusion, and stated it to an hyper critical audence saying I was anti-science for thinking it would be worse then sars. Dispite enaging with the most important bit of science I believe in, motivated prediction.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ceasefire.net/post/a239z5/300000_poeple_will_die_this_year_from_corona_virus&#34;&gt;Yes really. I predicted 300,000 deaths on feb 5th I will not be letting any one in any agrument on the topic off without explaining why they didn&amp;rsquo;t have a reasonable attempt. Having the world disagree with you but being right is always suffocating.&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;hellip;. I fucking hate it all. Do none of you see the frenzy your in, the mental agony your in for a illness that doesn&amp;rsquo;t harm the young. Your very hard to love humanity.&lt;/p&gt;
+&lt;p&gt;I may as well restate my case again, any lockdown past the risk of medical shortages are a meme. The R0 is very very high, there is a point where everyone will be infected by an illness given a high enough R0. Any increase won&amp;rsquo;t infect more poeple and by simple logic a decrease to that point won&amp;rsquo;t save any lives either.&lt;/p&gt;
+&lt;p&gt;They did nothing when it mattered then over corrected and did everything when it didn&amp;rsquo;t. Like an expecting mother who was on meth for the first 2 weeks of pregency, then converted to a cult that ate nothing but raw food. Exopental growth may take a bit but the outcome was set in motion. It will feel very unfair to that mother but I would rate the brith defect risk using numbers from methhead births.&lt;/p&gt;
+&lt;p&gt;Speaking of which we are close to 9 months since I&amp;rsquo;ve heard; its getting rather old.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I&amp;rsquo;ve asked 4chan, I tried reddit, I&amp;rsquo;ve googled, I&amp;rsquo;ve dug into new stories of past protests. 4chan and cnn are on the same page of &amp;ldquo;&lt;strong&gt;PANIC&lt;/strong&gt;&amp;rdquo; and calling me crazy. And of course the majority of places feel censored. I want a local protest, I&amp;rsquo;ll probaly be awkward, as they will antivaxxers probaly but&amp;hellip;.. I don&amp;rsquo;t know maybe it will be satisfying in some way.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>please stop the roits antifa</title>
+       <link>monkyyy.science/posts/please_stop_the_roits_antifa/</link>
+       <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/please_stop_the_roits_antifa/</guid>
+       <description>&lt;p&gt;When this started, there was a video of a man being killed by police officers that generally speaking everyone agreed was murder. Today, that fact is disputed, there was a 17 year old who was either kkk member or an americain hero depending on who you ask.&lt;/p&gt;
+&lt;p&gt;You went staight past, vague but consentous to improve the problem of police violence, to two competing thoeries of expanding police power.&lt;/p&gt;
+&lt;p&gt;The first is clear, trump is running on law and order. The arm of the repubicain party known as fox new has been showing images of voilence consistently.&lt;/p&gt;
+&lt;p&gt;What is far less obvious is that biden/harris is a dog wistle for law and order. If we presume that independent voters do an entire minute of research, a big ask but bare with me; they should find that either joe &amp;ldquo;crime bill&amp;rdquo; biden in fact added 80 something crimes to the death penelty list and expanded police power, and that harris is considered an over zealous proscutor. Biden alone is a blank slate that pushes in whatever the dnc decides should be the next president; or the maybe anti-bernie but doubling down on the feature of law and order democrates speaks that it was intended.&lt;/p&gt;
+&lt;p&gt;Continuing the violence isn&amp;rsquo;t helping the case that the state is unnecessary or evil. For whatever reason this murder entered the public consensus, a rare event; and you wasted it, rotted it and left it out to smell. Fuck you ancoms this moment was valuable; learn from this mistake.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>D is rather good at commandline bodging</title>
+       <link>monkyyy.science/posts/d_is_rather_good_at_commandline_bodging/</link>
+       <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/d_is_rather_good_at_commandline_bodging/</guid>
+       <description>&lt;p&gt;I have not seen this written down anywhere, and the pieces are seperated in the documation; But I assume it took effort to make pieces of this to work apperently correctly and comfy.&lt;/p&gt;
+&lt;h2 id=&#34;taking-command-line-input&#34;&gt;Taking command line input:&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-d&#34; data-lang=&#34;d&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; s&lt;span style=&#34;color:#f92672&#34;&gt;){&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Besides element 0 being the command for posix reasons; its rather staight forward, your input is whatever you named s.&lt;/p&gt;
+&lt;h2 id=&#34;running-commands&#34;&gt;running commands:&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-d&#34; data-lang=&#34;d&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; std.process&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt; userinput&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;executeShell&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;zenity --entry&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt; 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Zenity pops up a window for the user to input something into, so these two lines of code will do the rather complicated thing of getting a string from the user, assuming its installed and not vomiting gtk warnings.
+Read the fucking manual for bash tools and all that jazz.&lt;/p&gt;
+&lt;h2 id=&#34;reading-files-lazily&#34;&gt;Reading files lazily:&lt;/h2&gt;
+&lt;p&gt;A bit more complicated, but you can read and write to files without any sort of hassle with the following pattern.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;in data.d&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-d&#34; data-lang=&#34;d&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;struct&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;mystruct&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;{&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;int&lt;/span&gt; i&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;float&lt;/span&gt; f&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;bool&lt;/span&gt; b&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;in foo.d&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-d&#34; data-lang=&#34;d&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; data&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; std.file&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(){&lt;/span&gt;
+  mystruct a&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;mystruct&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;
+    &lt;span style=&#34;color:#ae81ff&#34;&gt;42&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
+    &lt;span style=&#34;color:#ae81ff&#34;&gt;1337.0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
+    &lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+  &lt;span style=&#34;color:#75715e&#34;&gt;//import std.process; executeShell(&amp;#34;touch store&amp;#34;);
+&lt;/span&gt;&lt;span style=&#34;color:#75715e&#34;&gt;&lt;/span&gt;  write&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;store&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;,[&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;]);&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;in bar.d&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-d&#34; data-lang=&#34;d&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; data&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; std.file&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(){&lt;/span&gt;
+  mystruct a&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;if&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;exists&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;store&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;)){&lt;/span&gt;
+    a&lt;span style=&#34;color:#f92672&#34;&gt;=(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;cast&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;  mystruct&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt;  &lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;read&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;store&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;))[&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;];&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;assert&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;i&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;42&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;assert&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;f&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1337.0&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+  &lt;span style=&#34;color:#66d9ef&#34;&gt;assert&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;a&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;b&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;==&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;true&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;);&lt;/span&gt;
+  &lt;span style=&#34;color:#f92672&#34;&gt;import&lt;/span&gt; std.stdio&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;success&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;.&lt;/span&gt;&lt;span style=&#34;color:#a6e22e&#34;&gt;writeln&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;;&lt;/span&gt;
+&lt;span style=&#34;color:#f92672&#34;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;I mean you could read in files as intended but do you really want to do that?&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>bash scripting 1</title>
+       <link>monkyyy.science/posts/bash_scripting_1/</link>
+       <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+       
+       <guid>monkyyy.science/posts/bash_scripting_1/</guid>
+       <description>&lt;p&gt;So, in order to make writing a blog with images comfy I need a tool of some sort way to inject the infomation into the blog and set it up so it will be auto hosted.&lt;/p&gt;
+&lt;p&gt;A software maximalist would set up a drag and drop interface, you would take your screen shot run over to m$ paint, paste your screen shot, then go to you document folder and hope you find it quickly then you drag and drop into your webshit website editor.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;I will not be doing that.&lt;/strong&gt;&lt;/em&gt; Instead I will write a bash script; to start with I need to gather up the pieces to bodge together.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;From my last blog post the markdown syntax in hugo was&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;![&lt;span style=&#34;color:#f92672&#34;&gt;bleh&lt;/span&gt;](&lt;span style=&#34;color:#a6e22e&#34;&gt;bleh.png&lt;/span&gt;)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;From past knowledge I know scrot has a &amp;ldquo;click a window to screen shot it&amp;rdquo; option.&lt;/p&gt;
+&lt;p&gt;Zenity to pop up a text box.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve been looking for a good image cropping resize tool. &amp;ldquo;pix&amp;rdquo; seems good enough, as it a) opens the image when give it from the command line and b) automaticly is happy with overwriting the file.&lt;/p&gt;
+&lt;p&gt;And something that will boop something into my copy and paste. Looking into xclip I find this syntax.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;hello&amp;#34;&lt;/span&gt; | xclip -selection clipboard
+
+ctrl-v hello
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Well thats jank but whatever &lt;strong&gt;I&amp;rsquo;ve grabed my tools.&lt;/strong&gt; Time to unix them together.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;To start with I&amp;rsquo;m going to go to my src/bash folder and touch and chmod a new file.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;monkyyy@no bash&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ touch hugoimagesyntax
+
+&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;monkyyy@no bash&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ chmod +x hugoimagesyntax
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Double checking the syntax, and that scrot tends to make png&amp;rsquo;s I write&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;echo !&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;$1&lt;span style=&#34;color:#f92672&#34;&gt;](&lt;/span&gt;$1.png&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;which unfornately clashes with bash, five tries later I got (and a post edit to make it link correct)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;echo &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;![&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;](/images/&amp;#34;&lt;/span&gt;$1&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;.png)&amp;#34;&lt;/span&gt; | xclip -selection clipboard
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;Moving on.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;monkyyy@no bash&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ touch blogscreenshot
+
+&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;monkyyy@no bash&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ chmod+x blogscreenshot
+
+bash: chmod+x: command not found
+
+&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;monkyyy@no bash&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ chmod +x blogscreenshot
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;My hugo image folder is well&amp;hellip; I&amp;rsquo;ll copy and paste that
+&lt;img src=&#34;monkyyy.science/images/nemo_images_propertys.png&#34; alt=&#34;nemo_images_propertys&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Which I will need to format to make a cd command. Next man-paging scrot:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;man scrot
+
+SYNOPSIS
+       scrot &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;options&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;file&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;
+       
+       -s, --select
+              Interactively &lt;span style=&#34;color:#66d9ef&#34;&gt;select&lt;/span&gt; a window or rectangle with the mouse.  See -l and  -f
+              options.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;So I try a few things but get this&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cd ~/src/hugo/content/images
+scrot -s $1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;which seems to be working correctly. So I add:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;pix $1.png
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;it unfornately errors out, probaly a racing error. Adding a sleep&amp;hellip;.. and it also doesnt work.&lt;/p&gt;
+&lt;p&gt;Wait no, scrot doesnt automaticly add .png ops.&lt;/p&gt;
+&lt;p&gt;And lets end off with calling my earlier file, bring my script to this&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-sh&#34; data-lang=&#34;sh&#34;&gt;cd ~/src/hugo/content/images
+scrot -s $1.png
+pix $1.png
+~/src/bash/hugoimagesyntax $1
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;to finish things off I drop down to home to try to make a final command to put into my general system keybroad shortcut.&lt;/p&gt;
+&lt;p&gt;Reading thru zenitys man page&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;--entry
+              Display text entry dialog
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;then, wrapping it in $() to make it run correctly&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;monkyyy@no ~&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ ./src/bash/blogscreenshot &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;zenity --entry&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;it seems to be working so I copy and paste it into my keybindings config, skhdx, or whatever it is; you should have something simuliar, if you don&amp;rsquo;t get one; running arbitary commands on a key press is very useful.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;super + Print
+  ./src/bash/blogscreenshot &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;zenity --entry&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And like magic since I live in this opinionated miniumalist world, I can do something quite complex with quite a bit of automation, at any point by pushing super+printscreen.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;monkyyy.science/images/I_am_king.png&#34; alt=&#34;I_am_king&#34;&gt;&lt;/p&gt;
+&lt;p&gt;I will of course need to edit this to format it nicely and to get my numerous spelling mistakes but this is why I stay minimal. This probaly wasn&amp;rsquo;t the bestm but hopefully you can get the raw bodging attitude that you should take.&lt;/p&gt;
+</description>
+     </item>
    
      <item>
        <title>up and running</title>
@@ -18,7 +386,9 @@
        <guid>monkyyy.science/posts/up_and_running/</guid>
        <description>&lt;p&gt;I believe I&amp;rsquo;ve fixed all the webshit issues. And this should just work.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m a little unsure of the process to get images so here is me attemping to upload one&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;monkyyy.science/content/images/softwaresucks1.png&#34; alt=&#34;softwaresucks&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;monkyyy.science/images/softwaresucks1.png&#34; alt=&#34;softwaresucks&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Hey it works I can work with that, a little big but sure.&lt;/p&gt;
+&lt;p&gt;Lets see if I can publish it in under 2 minutes.&lt;/p&gt;
 </description>
      </item>
    
@@ -71,7 +441,7 @@
 &lt;p&gt;&lt;a href=&#34;https://dlang.org/articles/mixin.html&#34;&gt;https://dlang.org/articles/mixin.html&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;Excuse me? That is not enough reverence to jank, c, or monkeys.&lt;/p&gt;
-&lt;p&gt;I digress, I &lt;em&gt;like&lt;/em&gt; c imports for being purely copy and paste, moving code around should the right of the programmer without restrictions, and scoping rules are &lt;em&gt;&lt;strong&gt;oft&amp;rsquo;&lt;/strong&gt;&lt;/em&gt; a restriction, and can cause a rewrite.&lt;/p&gt;
+&lt;p&gt;I digress, I &lt;em&gt;like&lt;/em&gt; c imports for being purely copy and paste, moving code around should the right of the programmer without restrictions, and scoping rules are &lt;em&gt;&lt;strong&gt;oft&#39;&lt;/strong&gt;&lt;/em&gt; a restriction, and can cause a rewrite.&lt;/p&gt;
 &lt;p&gt;However they are possible in d, probally not intentionally so don&amp;rsquo;t show this to the devs, they may get some anti-fun ideas.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-d&#34; data-lang=&#34;d&#34;&gt;
 &lt;span style=&#34;color:#66d9ef&#34;&gt;mixin&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;import&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;foo.mix&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;));&lt;/span&gt;
