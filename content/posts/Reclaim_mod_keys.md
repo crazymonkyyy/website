@@ -17,7 +17,7 @@ But, all your programs use all the easy to remember hotkeys. You only have ctrl 
 
 Whatever is a newfren to do?
 
-![I couldn't find one with broken fingers](/images/pepehands.png)
+![I couldn't find one with broken fingers](/images/pepehands.jpg)
 
 Its simple we kill capslock and reclaim super.
 
