@@ -26,14 +26,14 @@ pygmentsCodeFences = true
     #devto = "username"
 
 [params]
-    tagline = "A Hugo theme for creative and technical writing"
-    description = ""
+    tagline = "taglines are spooks"
+    description = "a blog by an anti-science conspiracy theorist, leave before your tainted by wrong think -helpful glowie"
     #images = [""] #This is used for opengraph/twitter cards.
     #customCSS = ["css/my.css"]  #Optional Customised CSS
     #favicon = ""
     #utterancesRepo = "username/repository"
     #utterancesIssueTerm = "pathname"
-    homepageLength = 10
+    homepageLength = 7
     #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
     #mathjax = true #Enable display of mathematics using mathjax (LaTeX syntax)
     #google_fonts = ["Staatliches"] # Adds additional google fonts
