@@ -45,7 +45,7 @@ So here's a theoretical spec for what markup lang I'd make, with the following g
 
 etc.
 
-[pepe] draws a twitch emote style Pepe(decided by a community that thinks Pepe is more important than the family emoji having 7\*7\*7 racial versions, by 3\*3\*3 gendered versions, your fucking morons unicode, open-source emotes in sprite sheets up on github somewhere). For sanity require it to be at least 4 letters and symbol-less.
+[pepe] draws a twitch emote style Pepe(decided by a community that thinks Pepe is more important than the family emoji having 6 racial versions by 3\*3\*3 gendered versions, your fucking morons unicode, open-source emotes in sprite sheets up on github somewhere). For sanity require it to be at least 4 letters and symbol-less.
 
 [duckduckgo.com] - link
 
