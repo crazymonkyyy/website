@@ -2,22 +2,588 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
  <channel>
    <title>Categories on monkyyy.science</title>
-   <link>monkyyy.science/categories/</link>
+   <link>https://monkyyy.science/categories/</link>
    <description>Recent content in Categories on monkyyy.science</description>
    <generator>Hugo -- gohugo.io</generator>
-   <lastBuildDate>Wed, 21 Oct 2020 00:00:00 +0000</lastBuildDate>
+   <lastBuildDate>Sat, 06 Mar 2021 00:00:00 +0000</lastBuildDate>
    
-       <atom:link href="monkyyy.science/categories/index.xml" rel="self" type="application/rss+xml" />
+       <atom:link href="https://monkyyy.science/categories/index.xml" rel="self" type="application/rss+xml" />
    
    
      <item>
+       <title>complex games &lt;3</title>
+       <link>https://monkyyy.science/posts/complex_games_3/</link>
+       <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/complex_games_3/</guid>
+       <description>&lt;p&gt;So, valve has stopped dev on artifact for the 2nd time.&lt;/p&gt;
+&lt;p&gt;&amp;hellip;..&lt;/p&gt;
+&lt;p&gt;sadness, pure sadness, I put so much money in. Money I shouldnt have.&lt;/p&gt;
+&lt;p&gt;I liked both versions.&lt;/p&gt;
+&lt;p&gt;Anyway, so last year I loved 3 complex games, artifact, artifact 2 eletric bogaloo, and 5d chess.&lt;/p&gt;
+&lt;p&gt;The story with each is the same I feel, a insanely steep learn curve with a first order stagagy that hurts the new players, into a decline in play base and a these handful of thoery crafters sloving the high end of the game without the devs reacting to balence problems.&lt;/p&gt;
+&lt;p&gt;With artifact 1, it was red having the strongest heros by a large margin and a very strong 1 card win condiction in a game where heros werent random in a game with allot of randomness. Red needed to be nerfed hard and quickly, the market valued ax at some absurd price because he was in both easy to play strong decks mono red and ramp green red.&lt;/p&gt;
+&lt;p&gt;With artifact 2, im less sure I didnt get an invite till late last year&amp;hellip;. it was less exterme mostly any thoerical player base hated valve. So no player base was picked up.&lt;/p&gt;
+&lt;p&gt;With 5d chess theres a 3 move opening that exopses the king&amp;hellip; when the king is very weak and the dev was to slow to add &amp;ldquo;priness&amp;rdquo; a varient where the queen is weakened to be rook + bishop and not the trianary, quaairy moving, &amp;ldquo;random&amp;rdquo; check mate machine. That the queen was extermely strong should have been seen very early and I have trouble imagining that that wasnt something considered even prerelease. But it was quite late.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;I kinda want to make my own &amp;ldquo;5d&amp;rdquo; game, but I have zero belief in my ability to balence such a thing when I clearly cant understand other poeples prepective where they dropped these games, soooo, heres my advice for any such games in the future:&lt;/p&gt;
+&lt;p&gt;You can not be perfect infomation deteministic like 5d chess; with such a large attack surface and presumablly the type of player who will find a clever degenerate stat. the critism of artifact 1 about being to random doesnt really apply, the heros as big numbers i.e. the red heros werent that random, any red hero would kill any blue hero so only really very high level play saw blue existence.&lt;/p&gt;
+&lt;p&gt;You need a causal mode that removes details for new players to play new players, the hero draft of artfact 2 seem to be helpful here and maybe with it being free there will be a player base for a while.&lt;/p&gt;
+&lt;p&gt;You need drastic balence levers you pull quickly.&lt;/p&gt;
+&lt;p&gt;Randomness needs all the dev talk on input vs output, and infomation horizons likely need to be skillfully done.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>monkyyy markup</title>
+       <link>https://monkyyy.science/posts/monkyyy_markup/</link>
+       <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/monkyyy_markup/</guid>
+       <description>&lt;p&gt;Soooo, gopher and related projects are too limited, html5 has 3d rendering which is insane, and markup by carelessly using all the symbols breaks the ability to write out Japanese emotes, or even how you write out math. And there are new desires like twitch emotes.&lt;/p&gt;
+&lt;p&gt;(ﾉ&amp;gt;ω&amp;lt;)ﾉ :｡･:* :･ﾟ&#39;★,｡･: *:･ﾟ&#39;☆&lt;/p&gt;
+&lt;p&gt;So here&amp;rsquo;s a theoretical spec for what markup lang I&amp;rsquo;d make, with the following goals:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;light on &amp;ldquo;symbol namespace&amp;rdquo; pollution&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;having color (looking at you markdown)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;easy to write free flow without looking anything up&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;a (sane) level of expandability&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;hr&gt;
+&lt;p&gt;[b] - bolds text&lt;/p&gt;
+&lt;p&gt;[i] - itatics text&lt;/p&gt;
+&lt;p&gt;[c] - crosses out text&lt;/p&gt;
+&lt;p&gt;[h1] - header&lt;/p&gt;
+&lt;p&gt;[t1] - opinionated indent level, for code formating that survives whitespace sanitizing&lt;/p&gt;
+&lt;p&gt;[&amp;gt;] - quote&lt;/p&gt;
+&lt;p&gt;[^] - small expont-like text&lt;/p&gt;
+&lt;p&gt;[*] - bulletpoint&lt;/p&gt;
+&lt;p&gt;etc.&lt;/p&gt;
+&lt;p&gt;[pepe] draws a twitch emote style Pepe(decided by a community that thinks Pepe is more important than the family emoji having 6 racial versions by 3*3*3 gendered versions, your fucking morons unicode, open-source emotes in sprite sheets up on github somewhere). For sanity require it to be at least 4 letters and symbol-less.&lt;/p&gt;
+&lt;p&gt;[duckduckgo.com] - link&lt;/p&gt;
+&lt;p&gt;[monkyyy.science/pepe.jpg] - &amp;ldquo;resource&amp;rdquo;, inlined if supported by the client, downloads to temp and opened by xdg-open when clicked otherwise.&lt;/p&gt;
+&lt;p&gt;[] - resets text drawing to baseline, i.e. &amp;ldquo;[b]bold[] not bold&amp;rdquo;, not the nested shit of html&lt;/p&gt;
+&lt;p&gt;[00F] - simple rgb hexadecimal, color &lt;em&gt;hints&lt;/em&gt; if its the first element in the block of text sets the background color otherwise text color, if the user has a dark theme blue would make a dark blue background, if the user had bright theme a sky blue. Details would be left up to the client but the basic assumption would be no color combo should be unreadable. Maybe allow G-Z to overflow like &amp;ldquo;200% blue&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;/n - endline should also reset the styling&lt;/p&gt;
+&lt;p&gt;maybe [[] and []] for &amp;ldquo;escaped&amp;rdquo; brackets&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;So, 1 and 2 letter codes would be for text style details, 3 letter codes would be colors, 4 and more its either an emote or a link.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>polycenteric law</title>
+       <link>https://monkyyy.science/posts/polycenteric_law/</link>
+       <pubDate>Sat, 06 Feb 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/polycenteric_law/</guid>
+       <description>&lt;p&gt;The &lt;em&gt;&lt;strong&gt;feature&lt;/strong&gt;&lt;/em&gt; of polycentric law, I would define as: &amp;ldquo;having multiple legal authorities active in the same geographical area&amp;rdquo;. This naturally is in light conflict with the definition of nation-states used in ancap: &amp;ldquo;A monopoly on &lt;em&gt;violent&lt;/em&gt; legal authority over a geographical area&amp;rdquo;. Not mutually exclusive, but I would suggest the more total the state the less polycentric it is.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Polycentric law is everywhere&lt;/strong&gt;, in every functional system I&amp;rsquo;m aware of, the most glaring example of which is in America corporations shop for a tax rate between the states, but with little restrictions on this getting in the way of their economic activity.&lt;/p&gt;
+&lt;p&gt;In Kowloon walled city there were 5 crime families, and well Kowloon was growing in population &lt;em&gt;while Mao&amp;rsquo;s china starved&lt;/em&gt;. It&amp;rsquo;s unclear how that was functioning but it was likely mafia-style feud law.&lt;/p&gt;
+&lt;p&gt;In Somalia they have &amp;ldquo;blood feuds&amp;rdquo;, where your family tree determines your court, your 3rd cousin if deemed the best person in your clan is your judge for family disputes or something like that, getting a complex network based on family relations. And they were &lt;a href=&#34;https://www.peterleeson.com/Better_Off_Stateless.pdf&#34;&gt;&amp;ldquo;better off stateless&amp;rdquo;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;And then religion, oh my god religion, the original legal systems pre-separation of church and state. If you&amp;rsquo;re wondering why Europe hates jews as money-grabbing, they were allowing &amp;ldquo;usury&amp;rdquo; when the catholic church wasn&amp;rsquo;t. and christen bankers were angry about it. When I as a capitalist would say the usury was likely necessary to make modern capitalism. Furthermore, the separation is kinda weak, like I&amp;rsquo;m in Utah, there was a church building on my highschool campus with a synced schedule with the school so I could have religious education implied to be on par with anything else taught.&lt;/p&gt;
+&lt;p&gt;In nation-states this is a hierarchy of courts usually, do understand this is very much a part of your life now, a complex web of courts you don&amp;rsquo;t understand following &lt;em&gt;different rules, different norms, that only works at all because you rarely need to use it&lt;/em&gt;. Furthermore, there are likely elements of capitalism affecting you, most modern contracts will have arbitration clauses, these are private systems that have added themselves to the bottom of the current hierarchy. Keep that in mind as I describe what I want here.&lt;/p&gt;
+&lt;p&gt;I as an ancap, want to extend polycentric law, in an ideal world instead of family, religion, or the hierarchy geography, I would want political party &lt;strong&gt;you pick&lt;/strong&gt; and pay for to decide the law in you live under. Start-up cities are a similar idea but are still in the geographical mindset to avoid conflict with current nation-states.&lt;/p&gt;
+&lt;p&gt;Why? Well, existing polycentric law elements are random and poorly planned. Bloodlines, invisible sky men, and mafias are no way to organize society(even if they are better than states). While the nation-states&#39; polycentrism is fragile, in America the federal government is always growing. I&amp;rsquo;m sure the UK had a growing list of reasons to dislike the EU. etc. &lt;strong&gt;It&amp;rsquo;s not great if an important element of the legal system&lt;/strong&gt; you believe makes it functional &lt;strong&gt;is eroding, always, causally&lt;/strong&gt;. Also &lt;em&gt;moving between states to pick between red and blue isn&amp;rsquo;t the level of freedom I&amp;rsquo;m looking for.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;To make a careless argument in its favor, I would suggest two aspects: robustness, and experimentation.&lt;/p&gt;
+&lt;p&gt;For robustness, consider that California is fucking insane, while being likely the strongest state, failing in several measures, if their insanity was affecting elsewhere would America still be standing?&lt;/p&gt;
+&lt;p&gt;For experimentation, there was a first state the legalized gay marriage, weed, LSD, and who knows what else on into the future, and despite calls by the evangelists saying these things would cause god to smite America I have yet to hear of a politician struck by lighting the day/hour/minute such laws are passed. And you can just look up their crime rates and other sorts of stats after the fact.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&lt;strong&gt;The freedom afforded to corporations to shop for tax rates needs to be expanded to all.&lt;/strong&gt;&lt;/em&gt; Consider reading &lt;a href=&#34;http://www.daviddfriedman.com/Academic/Course_Pages/legal_systems_very_different_12/LegalSystemsDraft.html&#34;&gt;David Friedman&lt;/a&gt; if interested.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>devlog</title>
+       <link>https://monkyyy.science/posts/devlog/</link>
+       <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/devlog/</guid>
+       <description>&lt;p&gt;So&amp;hellip; I started a rewrite to organize things in my game a while ago; longer than I&amp;rsquo;m going to admit to. But it&amp;rsquo;s done now, it&amp;rsquo;s working on a fundamental level, with a level of organization under it.&lt;/p&gt;
+&lt;p&gt;Or to put it another way, it took months between these two screenshots:
+&lt;img src=&#34;https://monkyyy.science/images/newscreenshot.png&#34; alt=&#34;newscreenshot.png&#34;&gt;
+&lt;img src=&#34;https://monkyyy.science/images/oldscreenshot.png&#34; alt=&#34;oldscreenshot.png&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Programing is alienating in the Marxist sense, extremely so, and I&amp;rsquo;m not sure how to deal with that. This progress doesn&amp;rsquo;t feel real. Here the different file structures, so a lot did happen:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;before&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;├── art.png
+├── bar.d
+├── carts.png
+├── dub.json
+├── dub.selections.json
+├── foo.d
+├── hello
+├── mix
+├── PixAntiqua.ttf
+├── random code
+│   └── shaderattempt.d
+├── raylib_cheatsheet.pdf
+├── raylib-d.wiki
+│   ├── Docs-&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;cheatsheet&lt;span style=&#34;color:#f92672&#34;&gt;)&lt;/span&gt;.md
+│   └── Home.md
+├── source
+│   ├── app.d
+│   ├── connectedcomponent.d
+│   ├── draw.mix
+│   ├── gameplay.mix
+│   ├── group.mix
+│   ├── libraylib.a
+│   ├── libraylib.so
+│   ├── __main-b9b3f17.o
+│   ├── orecombo-60ce4ba.o
+│   ├── orecombo.d
+│   ├── orecombo.o
+│   ├── orelist.d
+│   ├── oremangiment.d
+│   ├── rangematch.d
+│   ├── raylib.dll
+│   ├── raylib.lib
+│   ├── ringarray.d
+│   ├── smart2darray.d
+│   ├── stable.mix
+│   └── table.d
+└── wave.fs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;blockquote&gt;
+&lt;p&gt;after&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;├── art
+│   ├── art1x
+│   │   ├── art.png
+│   │   ├── buttons.png
+│   │   ├── carts2.png
+│   │   ├── carts.jpeg
+│   │   └── carts.png
+│   ├── art2x
+│   │   ├── art.png
+│   │   └── buttons.png
+│   ├── art5x
+│   │   └── art.png
+│   ├── arts sources
+│   │   ├── Donate.url
+│   │   ├── Facebook.url
+│   │   ├── License.txt
+│   │   ├── PNG
+│   │   │   ├── Blue
+│   │   │   │   ├── letter_A.png
+
+│   │   │   ├── Brown
+│   │   │   │   ├── letter_A.png
+
+│   │   │   ├── Marble
+│   │   │   │   ├── letter_A.png
+
+│   │   │   ├── Metal
+│   │   │   │   ├── letter_A.png
+
+│   │   │   ├── Solid
+│   │   │   │   ├── letter_A.png
+
+│   │   │   ├── Wood
+│   │   │   │   ├── letter_A.png
+
+│   │   │   └── Yellow
+│   │   │       ├── letter_A.png
+
+│   │   ├── Preview.png
+│   │   ├── Sample.png
+│   │   ├── Spritesheet
+│   │   │   ├── blue_spritesheet.png
+│   │   │   ├── blue_spritesheet.xml
+│   │   │   ├── box_spritesheet.png
+│   │   │   ├── box_spritesheet.xml
+│   │   │   ├── brown_spritesheet.png
+│   │   │   ├── brown_spritesheet.xml
+│   │   │   ├── marble_spritesheet.png
+│   │   │   ├── marble_spritesheet.xml
+│   │   │   ├── metal_spritesheet.png
+│   │   │   ├── metal_spritesheet.xml
+│   │   │   ├── solid_spritesheet.png
+│   │   │   ├── solid_spritesheet.xml
+│   │   │   ├── wood_spritesheet.png
+│   │   │   ├── wood_spritesheet.xml
+│   │   │   ├── yellow_spritesheet.png
+│   │   │   └── yellow_spritesheet.xml
+│   │   └── Vector
+│   │       ├── lettertiles_vector.ai
+│   │       ├── lettertiles_vector.svg
+│   │       └── lettertiles_vector.swf
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── mix
+│   ├── PixAntiqua.ttf
+│   ├── raylib
+│   └── source
+│       ├── app.d
+│       ├── artscale.mix
+│       ├── imageloader.mix
+│       └── initwindow.mix
+├── board
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── mix
+│   ├── raylib
+│   └── source
+│       ├── app.d
+│       ├── board.mix
+│       ├── fakedraw.mix
+│       ├── fakeorecombo.d
+│       ├── initwindow.mix
+│       ├── oreque.mix
+│       └── ringarray.d
+├── collision
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── mix
+│   ├── raylib
+│   └── source
+│       ├── app.d
+│       └── mayomath.d
+├── encyclopedia
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── ency
+│   │   ├── foo
+│   │   └── table
+│   ├── mix
+│   ├── raylib
+│   └── source
+│       ├── app.d
+│       ├── app.old
+│       ├── cashe.d
+│       ├── eccentricexpressions.d
+│       ├── encyclopedia.mix
+│       ├── page_.d
+│       ├── parse.d
+│       └── ui.d
+├── journal
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── mix
+│   ├── raylib
+│   └── source
+│       ├── app.d
+│       ├── journal.d
+│       └── ui.d
+├── launcher
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── mix
+│   ├── out
+│   ├── out2
+│   ├── raylib
+│   └── source
+│       └── app.d
+├── link
+├── link2
+├── link3
+├── link4
+├── linkart
+├── link.d
+├── main
+│   ├── art1x
+│   │   ├── art.png
+│   │   ├── buttons.png
+│   │   └── carts2.png
+│   ├── art2x
+│   │   ├── art.png
+│   │   └── buttons.png
+│   ├── art5x
+│   │   └── art.png
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── mix
+│   ├── raylib
+│   ├── source
+│   │   ├── app.d
+│   │   ├── artscale.mix
+│   │   ├── board.mix
+│   │   ├── cashe.d
+│   │   ├── ctfestrings.d
+│   │   ├── eccentricexpressions.d
+│   │   ├── encyclopedia.mix
+│   │   ├── imageloader.mix
+│   │   ├── initwindow.mix
+│   │   ├── journal.d
+│   │   ├── mayomath.d
+│   │   ├── orecombo.d
+│   │   ├── ore_.d
+│   │   ├── oreque.mix
+│   │   ├── oretable.d
+│   │   ├── page_.d
+│   │   ├── parse.d
+│   │   ├── playfulbuttons.mix
+│   │   ├── rangematch.d
+│   │   ├── ringarray.d
+│   │   ├── scenecontrol.mix
+│   │   ├── todolist.d
+│   │   ├── uglyconnectedcomponent.d
+│   │   └── ui.d
+│   └── todo
+├── ore
+│   ├── ctfestrings.d
+│   ├── dub.json
+│   ├── orecombo.d
+│   ├── orecombo.d.old
+│   ├── ore_.d
+│   ├── oreque.d.old
+│   ├── oretable.d
+│   ├── out
+│   ├── rangematch.d
+│   └── uglyconnectedcomponent.d
+├── particals
+│   └── dub.json
+├── README.md
+├── scenes
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── mix
+│   ├── raylib
+│   └── source
+│       ├── app.d
+│       ├── fakebuttonsprites.mix
+│       ├── fakescenedepends.mix
+│       ├── mayomath.d
+│       ├── playfulbuttons.mix
+│       ├── scenecontrol.mix
+│       └── ui.d
+├── systemlist
+├── template
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── mix
+│   └── source
+│       └── app.d
+├── todo
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── mix
+│   ├── raylib
+│   ├── source
+│   │   ├── app.d
+│   │   ├── cashe.d
+│   │   ├── eccentricexpressions.d
+│   │   ├── example
+│   │   ├── example.d.dubisstupid
+│   │   ├── example.o
+│   │   ├── out
+│   │   ├── parse.d
+│   │   ├── todo
+│   │   └── todolist.d
+│   └── todo
+├── toyui
+│   ├── dub.json
+│   ├── dub.selections.json
+│   ├── mix
+│   ├── particals
+│   └── source
+│       ├── app.d
+│       └── ui.d
+├── tree
+├── ulty
+└── utilityfiles
+	├── cashe.d
+	├── ctfestrings.d
+	├── dub.json
+	├── eccentricexpressions
+	├── eccentricexpressions.d
+	├── eccentricexpressions.o
+	├── fuzz.d
+	├── golbal_state.d
+	├── math.d
+	├── mayomath.d
+	├── mix
+	├── mutatetemplate.d
+	├── parse.d
+	├── rangematch.d
+	├── ringarray.d
+	├── superstate.d
+	└── uglyconnectedcomponent.d
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;note there are a lot of hard links here, and I want a source control thing that manages hard links(git doesn&amp;rsquo;t and everything looks hacky), if anyone has any insight&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>irresponsibly is responsibly</title>
+       <link>https://monkyyy.science/posts/irresponsibly_is_rsponsibly/</link>
+       <pubDate>Fri, 15 Jan 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/irresponsibly_is_rsponsibly/</guid>
+       <description>&lt;p&gt;By which I do mean legal irresponsibility and personal responsibility. To quickly define the former since it&amp;rsquo;s not necessarily used and I&amp;rsquo;m not entirely sure I use it correctly, I mean control over a resource without a possibility of legal consequences. I.e. most understandings of property are understood to be irresponsible but managing a trust fund is a legal responsibility, if you screw it up you&amp;rsquo;re getting sued, if you&amp;rsquo;re renting and paint the walls a color the landlord hates, you&amp;rsquo;re getting sued. If you live in a nationstate and despite your pure belief in self-ownership try to sell a kidney, you go to prison.&lt;/p&gt;
+&lt;p&gt;This irresponsibility is critical to my understanding of ownership. If there are high property taxes and the state will plan to take your assets if you fail to pay, I don&amp;rsquo;t see that as being secure ownership, the state is claiming to be a landlord with extra steps.&lt;/p&gt;
+&lt;p&gt;I believe there should be a singular irresponsible owner of a resource in most cases. If you have multiple, you get the tragedy of the commons, which the suggested solution is usually to make the state an owner, my solution would be to usually consider the previous use homesteading and to spilt the grassland up somehow. If they are a responsible owner with unclear incentives, well they are a renter and renting promotes irresponsibility as you don&amp;rsquo;t necessarily feel the consequences, it becomes an externality to chase you down in court.&lt;/p&gt;
+&lt;p&gt;Not to be too hard on all legal responsibility, but it&amp;rsquo;s a risk to have someone who is not you affect your resources. A bad trust fund manager can steal from you, a bad renter can destroy the flooring. But at the same time, it&amp;rsquo;s awkward to be these people, a trust fund manager is likely pushed to be too risk-averse, a renter is like &amp;ldquo;do have to ask before throwing away the pile of trash in the utility closet&amp;rdquo;. It&amp;rsquo;s a source of friction even with good actors, which the world isn&amp;rsquo;t necessarily full of good actors.&lt;/p&gt;
+&lt;p&gt;We as a society should be strongly for small scale absolute ownership of resources, and for the most part, we are, &amp;ldquo;ownership is 9/10th of the law&amp;rdquo; according to common law, and well common law was at America and Britain at the time of the industrial revolution. Not to mention the difference between Maoist China and Hongkong.&lt;/p&gt;
+&lt;p&gt;When your answer to no one you can be creative, uproot systems. If you have a smoker who&amp;rsquo;s trying to quit, common advice would be to destroy any cigarettes they have and try to never buy any more, if they signed a 5-year contract to get a box delivered to their house weekly and they have to keep paying. Well, that&amp;rsquo;s a responsibility and that freedom isn&amp;rsquo;t there.&lt;/p&gt;
+&lt;p&gt;The idea of bitcoin and smart contracts was that ownership of a piece of knowledge is 10/10ths of the law, self-ownership is mostly about defending other&amp;rsquo;s irresponsibility, but I believe expansions in such directions will increase responsibility.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>Unreason and neogods</title>
+       <link>https://monkyyy.science/posts/unreason_and_neogods/</link>
+       <pubDate>Wed, 06 Jan 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/unreason_and_neogods/</guid>
+       <description>&lt;p&gt;I respect but ultimately reject the rationalists.&lt;/p&gt;
+&lt;p&gt;&amp;hellip; Are you unaware of the rationalists? I better explain then, the rationalists are a group of ai researchers who spread &lt;em&gt;propaganda thru harry potter fanfiction&lt;/em&gt;; and effectively at that, if you&amp;rsquo;ve heard of ai safety &lt;em&gt;at all&lt;/em&gt; it likely had their hand at play, you can find them at lesswrong and the founding text is &lt;a href=&#34;http://www.hpmor.com/&#34;&gt;&amp;ldquo;harry potter and the methods of rationality&amp;rdquo;&lt;/a&gt; by Eliezer Yudkowsky.&lt;/p&gt;
+&lt;p&gt;&amp;hellip;. What&amp;rsquo;s with that look. &lt;em&gt;I&amp;rsquo;m entirely serious&lt;/em&gt;&amp;hellip;. It&amp;rsquo;s not mad, if anything they are very effective and I&amp;rsquo;d take notes. Anyway enough about them, I wish to discuss a subculture within them, which I&amp;rsquo;ve heard described as &lt;strong&gt;&amp;ldquo;unreason&amp;rdquo;&lt;/strong&gt;, not quite a founder but the writings of &lt;a href=&#34;https://slatestarcodex.com/&#34;&gt;Scott Alexander&lt;/a&gt; are probably a good place to start.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ve mentioned two authors, maybe it would best to compare them thru their books(was this a literary device all along?). And wouldn&amp;rsquo;t you know it &lt;a href=&#34;http://unsongbook.com/&#34;&gt;&amp;ldquo;Unsong&amp;rdquo;&lt;/a&gt; is a lovely book to compare to &amp;ldquo;hpmor&amp;rdquo;?&lt;/p&gt;
+&lt;p&gt;In unsong, the story opens with the early space missions&amp;hellip;. hitting the sky, showing that the other stars and the sun and moon were nothing but lights in the sky and the earth was special. This broke the physical universe revealing a world underneath where &amp;ldquo;bible codes&amp;rdquo; exist and do work. Then you follow anarchists fix the world within the context of this apparently geocentric religious world.&lt;/p&gt;
+&lt;p&gt;In hpmor, it&amp;rsquo;s the story of a &amp;ldquo;raised by scientists&amp;rdquo;, harry potter takes science to the magic world and&amp;hellip; well saves the magic world with science, and shit on backwards logic of said magic world every step of the way.&lt;/p&gt;
+&lt;p&gt;Don&amp;rsquo;t get me wrong, hpmor is still a worthwhile read but it has no respect for nonscientific points of view in the sightless. &lt;em&gt;Reading intelligent characters with a rich inner world that walk thru their thought process is a treat&lt;/em&gt;, which is there. But &lt;em&gt;unsong takes the lowest rungs of the apparent intellectual social hierarchy, flat-earthers, schizos, etc., and &lt;strong&gt;treats their world view as a real thing&lt;/strong&gt;&lt;/em&gt; (which then begs the question if this is what you believe why doesn&amp;rsquo;t this or that sort of thing happen?) Furthermore, it&amp;rsquo;s not as fairytale and mary-sue like, the group of heroes, being intelligent is an asset among many. In hpmor, harry is a student, with zero knowledge of magic with plot amour and &lt;strong&gt;THE SCIENCE&lt;/strong&gt; and he does so much in a single fucking year with this &lt;em&gt;&lt;strong&gt;HAMMER&lt;/strong&gt; and world of nails.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So to compare and contrast the two ideas: Rationalists would generally believe science is reaching for perfection, unreason&amp;hellip;ists would see it as a new intuition of knowledge, even an important one worthy of consideration but one &lt;em&gt;of many.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Is this &lt;a href=&#34;https://plato.stanford.edu/entries/pragmatism/&#34;&gt;&lt;em&gt;&amp;ldquo;American pragmatism&amp;rdquo;?&lt;/em&gt;&lt;/a&gt;, &lt;a href=&#34;https://en.wikipedia.org/wiki/Epistemological_anarchism&#34;&gt;&lt;em&gt;&amp;ldquo;Epistemological anarchism&amp;rdquo;?&lt;/em&gt;&lt;/a&gt;, some other idea I&amp;rsquo;m unaware of a title for?, an idea without a title and yet articulated?, I don&amp;rsquo;t know and I digress. So unreasonists are considering religion when frankly the rationalists are not. Let&amp;rsquo;s get to the next bit of that title, neo gods.&lt;/p&gt;
+&lt;p&gt;If religion is worth looking into even as a lesser intuition than science; &lt;strong&gt;why?&lt;/strong&gt; Are there perhaps possible institutions of knowledge that could take something from religion and improve science? Why what a dangerous mind you have reader, asking that sort of question, are you perhaps willing to talk to flat earthers? Careful of the &lt;em&gt;&lt;strong&gt;taint&lt;/strong&gt;&lt;/em&gt; of the conspiracy theory.&lt;/p&gt;
+&lt;p&gt;Scott did make a suggestion of an idea in his essay on &lt;a href=&#34;https://slatestarcodex.com/2014/07/30/meditations-on-moloch/&#34;&gt;&amp;ldquo;molock&amp;rdquo;&lt;/a&gt;, which I will be calling a neo-god. What I will suggest is making a pantheon of neo-gods. Let me define it really quick:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Meta-physical without challenging physicalism; these gods are/should be (((real))), believing in them should produce better predictions about the world. But &lt;del&gt;god damn&lt;/del&gt; &lt;em&gt;science sex it&lt;/em&gt;, people that &lt;em&gt;don&amp;rsquo;t&lt;/em&gt; believe in physicalism are &lt;em&gt;terrifying&lt;/em&gt;. The world is made up of particles bouncing around, it&amp;rsquo;s unethical to genocide a city to let god take who he will to a supposed heaven.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;They should have personalities. The human mind tells stories, stories with characters. This is the point, to think about abstract things the way the human mind works.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;They should be amoral or capable of being morally criticized. Perfect gods that define morality was so last century, mine are evil(not a requirement)&amp;hellip; and we may want to plot to kill them.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;I found the original essay useful, Scotts neo-god moloch is fairly influential for a reason.&lt;/p&gt;
+&lt;p&gt;If one is useful, &lt;em&gt;why not more&lt;/em&gt;, why not allow me to seed your pantheon with my own:&lt;/p&gt;
+&lt;h3 id=&#34;moloch&#34;&gt;Moloch&lt;/h3&gt;
+&lt;p&gt;To summarize the original essay, (and to set a style); Molock is the god that promises you a victory to win a battle if you ritually kill a child. His hand is there when cancer kills a host, when there is a nuclear arms race that prevents futher space exploration, in dollar actions, and prisoner dilemmas in a defecting state.&lt;/p&gt;
+&lt;p&gt;He is filled with glee when two armies sacrifice a child each, as that joy of that death with more than zero-sum of conflict is alone would make.&lt;/p&gt;
+&lt;h3 id=&#34;ra&#34;&gt;Ra&lt;/h3&gt;
+&lt;p&gt;(This I got from lesswrong but don&amp;rsquo;t know where)&lt;/p&gt;
+&lt;p&gt;Ra is a sungod&amp;hellip; a cruel &lt;em&gt;unmerciful&lt;/em&gt; one. He is the god of unchecked moralism, puritans, drug prohibitions, communists&amp;hellip;. &lt;strong&gt;scientism&lt;/strong&gt;, and rationalists. Sinners are to be punished to prevent sin as that will build heaven. But alas heaven never comes and the sinners weren&amp;rsquo;t prevented. All your left with are burnt witches, poisoned moonshine, and Mr. Hyde.&lt;/p&gt;
+&lt;p&gt;Ra cares little of sinners suffering &lt;em&gt;&amp;ldquo;they deserved it&amp;rdquo;&lt;/em&gt;, and doesn&amp;rsquo;t care about the timeline for perfection, it will come when it&amp;rsquo;s done. Perfection is of infinite value when built. So all prices are worth it.&lt;/p&gt;
+&lt;p&gt;Privacy, tolerating evil, loving humanity for its own sake; else the sun will &lt;em&gt;melt your wings&lt;/em&gt; and you&amp;rsquo;ll fucking &lt;em&gt;land on me&lt;/em&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;god-of-the-copybook-headingshttpswwwpoemhuntercompoemthe-gods-of-the-copybook-headings&#34;&gt;&lt;a href=&#34;https://www.poemhunter.com/poem/the-gods-of-the-copybook-headings/&#34;&gt;God of the copybook headings&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The god of &lt;em&gt;&lt;strong&gt;old&lt;/strong&gt;&lt;/em&gt; people saying &lt;em&gt;&lt;strong&gt;old&lt;/strong&gt;&lt;/em&gt; things, on one hand, old wisdom, on the other hand ending slavery was once a novel idea. This is the god understood by Jordan Peterson.&lt;/p&gt;
+&lt;p&gt;The least evil of the gods I suggest, but the poem&amp;rsquo;s author literally wrote &amp;ldquo;white man&amp;rsquo;s burden&amp;rdquo;. Negotiate with him carefully with &lt;a href=&#34;https://en.wikipedia.org/wiki/G._K._Chesterton#Chesterton&#39;s_fence&#34;&gt;Chesterton fences&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;If it in old English and it rhymes, &lt;em&gt;it must be true&lt;/em&gt;; unless of course it isn&amp;rsquo;t. If you never change how can you know?, but if it never changes what&amp;rsquo;s keeping it that way?, &lt;em&gt;and how will it hurt you?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;An old man telling you to eat your vegetables inbetween his racial slurs.&lt;/p&gt;
+&lt;h3 id=&#34;evolution-the-blind-idiot-god&#34;&gt;Evolution (the blind idiot god)&lt;/h3&gt;
+&lt;p&gt;So poorly understood, people seem to think the idiot has a brain, but in reality, he was known by the name &lt;a href=&#34;https://youtu.be/3kQuMVffbWA&#34;&gt;azathoth&lt;/a&gt; to Lovecraft, god of noise and chaos. Not strength, or fitness. He makes all things only to genocide them all but a few, The Child damaging his toys, and we are those toys, tiny, small, and helpless&amp;hellip; &lt;em&gt;already mutilated.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Darwin hoped a kind god was behind it all; the followers of darwin misheard and thought this god was kind and went ahead and shared his &amp;ldquo;kindness&amp;rdquo;.&lt;/p&gt;
+&lt;h3 id=&#34;the-state&#34;&gt;The state.&lt;/h3&gt;
+&lt;p&gt;Who watches the watchman? The evil god of my political beliefs. But perhaps that&amp;rsquo;s a different essay.&lt;/p&gt;
+&lt;h4 id=&#34;closing-thoughts&#34;&gt;Closing thoughts.&lt;/h4&gt;
+&lt;p&gt;I&amp;rsquo;m dropping this as is, don&amp;rsquo;t make me an owner of the idea. Expand on it without a care to coherency. Scott was doxxed and I don&amp;rsquo;t know of any writers to take his place, in lesswrong or in general.&lt;/p&gt;
+&lt;p&gt;There are ideas in &lt;a href=&#34;https://youtu.be/WRKHYefEKcA&#34;&gt;&amp;ldquo;jreg&amp;rdquo;&lt;/a&gt; and &lt;a href=&#34;https://polcompball-anarchy.fandom.com/wiki/Epistemological_Anarchism&#34;&gt;&amp;ldquo;polcompball&amp;rdquo;&lt;/a&gt; but with politics; I believe it should be more abstract however, and some emphasis on reading books, I hear dem mak ppl smrt.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>alchemy games</title>
+       <link>https://monkyyy.science/posts/alchemy_games/</link>
+       <pubDate>Thu, 03 Dec 2020 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/alchemy_games/</guid>
+       <description>&lt;p&gt;So I&amp;rsquo;m making a crafting game, and I have opinions.&lt;/p&gt;
+&lt;p&gt;The standard triple A crafting system is just a many-currency system, nothing that necessarily provides value. Not that I&amp;rsquo;ve played many such games, but just hearing that criticism when I&amp;rsquo;m not excited by say the terraria&amp;rsquo;s system which has you fighting specific bosses multiple times to get specific currency with 18 will get you shoes 19 will get you pants and 25 will get you a gun. If it&amp;rsquo;s even further dumbed down I can&amp;rsquo;t see value in it at all.&lt;/p&gt;
+&lt;p&gt;So do I hate crafting&amp;hellip; well no, I quite enjoyed Cultist Simulator, which as a core machinic has a 5 slot &amp;ldquo;ritual&amp;rdquo; that can take the majority of the cards in the game, when the late game definitely had over a hundred cards. While not all combinations work, that&amp;rsquo;s still quite the combinatorial problem if you brute-forced it. But here&amp;rsquo;s the thing, I didn&amp;rsquo;t, I eventually figured out the gamey systems under it which sapped its magic, but there were rhyme and reason to it and loads of flavor text with hints. Like &amp;ldquo;combine corpses with winter&amp;rdquo; is a hint everywhere and it makes a liability, having a corpse when your hiding from the fbi, into an asset, a zombie.&lt;/p&gt;
+&lt;p&gt;Hints and flavor text, and esoteric logic. 10/10.&lt;/p&gt;
+&lt;p&gt;People are too afraid to be esoteric in general, it&amp;rsquo;s rare to hear a coherent response to theism, instead, you get Richard Dawkins. Not Lovecraft in the silver key:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;He had turned to the gentle churchly faith endeared to him by the naive trust of his fathers, for thence stretched mystic avenues which seemed to promise escape from life. Only on closer view did he mark the starved fancy and beauty, the stale and prosy triteness, and the owlish gravity and grotesque claims of solid truth which reigned boresomely and overwhelmingly among most of its professors; or feel to the full the awkwardness with which it sought to keep alive as literal fact the outgrown fears and guesses of a primal race confronting the unknown. It wearied Carter to see how solemnly people tried to make earthly reality out of old myths which every step of their boasted science confuted, and this misplaced seriousness killed the attachment he might have kept for the ancient creeds had they been content to offer the sonorous rites and emotional outlets in their true guise of ethereal fantasy.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;It&amp;rsquo;s hardly a secret that I lean into such thought, altho I doubt you had the words in mind. So how to lead the dull into a rich world?&lt;/p&gt;
+&lt;p&gt;Well, the plan is to double down on the hints and flavor text, putting far more effort into it than the actual gameplay.&lt;/p&gt;
+&lt;p&gt;So coining a new genre, what is the element of an alchemy game:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;A crafting system that is properly largely combinatorial to not have brute force.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A live updating knowledge base to help guide the player.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The recipes can&amp;rsquo;t be formulaic.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>Reclaim mod keys</title>
+       <link>https://monkyyy.science/posts/reclaim_mod_keys/</link>
+       <pubDate>Sat, 31 Oct 2020 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/reclaim_mod_keys/</guid>
+       <description>&lt;p&gt;So you learned bash, and you set up a hotkey deamon of some sort and your ready to edit your dotfiles like a good /g/ fren to have a &amp;ldquo;productive&amp;rdquo; system.&lt;/p&gt;
+&lt;p&gt;But, all your programs use all the easy to remember hotkeys. You only have ctrl and alt and 36 keys. Are you suppose to ctrl+alt+shift+o+m to open your music player?&lt;/p&gt;
+&lt;p&gt;Whatever is a newfren to do?&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://monkyyy.science/images/pepehands.jpg&#34; alt=&#34;I couldn&amp;rsquo;t find one with broken fingers&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Its simple we kill capslock and reclaim super.&lt;/p&gt;
+&lt;p&gt;Install &amp;ldquo;xmodmap&amp;rdquo; and &amp;ldquo;xcape&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Make the following file:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;.Xmodmap&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;clear lock
+keycode 66 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Hyper&lt;span style=&#34;color:#ae81ff&#34;&gt;\_&lt;/span&gt;R
+add Mod3 &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; Hyper&lt;span style=&#34;color:#ae81ff&#34;&gt;\_&lt;/span&gt;R
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;add these lines to your autostart script (such as bspwmrc)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;xmodmap ~/.Xmodmap
+xcape -e &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#39;Super\_L=Super\_L|Shift\_L|space&amp;#39;&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;and rewrite your run menu keybinding to be super+shift+space (sxhkdrc)&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;super + shift + space 
+	rofi -show &lt;span style=&#34;color:#f92672&#34;&gt;&amp;amp;&amp;amp;&lt;/span&gt; ~/.config/wallpaper.sh_
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And you have 2 new mod keys, super and hyper. And you to can be a cool haker with 20 workspaces and a tiling wm. Btw sxhkd calls hyper &amp;ldquo;mod3&amp;rdquo;.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>What I want from metaprogramming</title>
+       <link>https://monkyyy.science/posts/what_i_want_from_metaprogramming/</link>
+       <pubDate>Thu, 29 Oct 2020 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/what_i_want_from_metaprogramming/</guid>
+       <description>&lt;p&gt;Let me just list some quick opinions on meta programing to lay some groundwork, these could be separate rants on their own:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Inheritance is annoying to maintain, ducktyping is great and 90% of the time will just be correct and comfy.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Fuzzy human standards are better than formal standards, I and everyone else expect addition to be associative, even if most people don&amp;rsquo;t know what associative means. I don&amp;rsquo;t know how to check associativity automatically that won&amp;rsquo;t have false negatives.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Templates can do most things I want, even if how c++ does templates is an ugly verbose lisp.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;You have to check if it&amp;rsquo;s working correctly as an user anyway, so why try to verify its correct in strange abstract meta-programming land?&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;With that in mind I expect the following things from metaprogramming:&lt;/p&gt;
+&lt;p&gt;a. A way to define a generic function that takes any type.&lt;/p&gt;
+&lt;p&gt;b. A way to define op overloads.&lt;/p&gt;
+&lt;p&gt;c. A way to overload a type&amp;rsquo;s functions if I wish.&lt;/p&gt;
+&lt;p&gt;d. A way to copy a type with modifications. &lt;code&gt;Nullable(T)&lt;/code&gt;
+should be easy to write.&lt;/p&gt;
+&lt;p&gt;e. A community editable rough standard for what op overloads mean.&lt;/p&gt;
+&lt;p&gt;f. A way to mix in and out strings/compilable data that can be modified compile time by standard code.&lt;/p&gt;
+&lt;p&gt;Currently, D does (a) and (b) verbosely but correctly. It attempts (c) and (d) but fails in sutle ways(alias this, but that&amp;rsquo;s a rant). (E) happened once(it&amp;rsquo;s what a range is) but doesn&amp;rsquo;t have an actual community-level process. My genetic opRadix does this, but I didn&amp;rsquo;t have a wiki to go edit to state my assumptions or look if someone defined something similar.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;So in my ideal world, I would have capital letters be automatic generic templates, &lt;code&gt;T&lt;/code&gt; would be disallowed for a type name and just mean straight up, this function is generic. &lt;code&gt;T foo(T a)&lt;/code&gt;. Drop the lispyness entirely, make the sane thing simple and inlined.&lt;/p&gt;
+&lt;p&gt;I would then have lua-like op overloads super-global master table, denoted by the preface of &amp;ldquo;op&amp;rdquo;, &lt;code&gt;string opstring(int a)&lt;/code&gt;, would define the way ints are converted to strings globally. To avoid conflict, allow setting a priority, no bullshit on scoping or complex contracts, or whatever nonsense people are suggesting, just an int compare and make the std defaults negative numbers and user templates default to zero, throw an error if two are equal.&lt;/p&gt;
+&lt;p&gt;An op overload table for &lt;code&gt;T&lt;/code&gt;, and what that implies.&lt;/p&gt;
+&lt;p&gt;Honestly string mixins, and mixouts(being an inverse), I still don&amp;rsquo;t see the value in Jai AST trees whatever. I have learned how to parse strings from countless places, I have the tools, and it&amp;rsquo;s presumably part of a good std. If it&amp;rsquo;s a new data type, what&amp;rsquo;s preventing repeating the c++ templates being an ugly lisp mistake?&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
        <title>tiling DE part 3 The problem</title>
-       <link>monkyyy.science/posts/tiling_de_part_3_the_problem/</link>
+       <link>https://monkyyy.science/posts/tiling_de_part_3_the_problem/</link>
        <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/tiling_de_part_3_the_problem/</guid>
+       <guid>https://monkyyy.science/posts/tiling_de_part_3_the_problem/</guid>
        <description>&lt;p&gt;So if tiling is so great why isn&amp;rsquo;t everyone using it.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;considerthefollowing.jpg&#34; alt=&#34;considerthefollowing.jpg&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://monkyyy.science/images/considerthefollowing.png&#34; alt=&#34;considerthefollowing.png&#34;&gt;&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;
 &lt;p&gt;Everyone is in the habit of being wrong. Just generally.&lt;/p&gt;
@@ -30,10 +596,28 @@
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;p&gt;For example, look at this timer app given an unusual size:&lt;/p&gt;
-&lt;p&gt;Trash, unusable trash, awful, horrifying, jank. Buts its collection of buttons and some numbers, it&amp;rsquo;s a touch tricky but getting it to work properly but isn&amp;rsquo;t rocket surgery.&lt;/p&gt;
-&lt;p&gt;Take my timer app for example:&lt;/p&gt;
+
+&lt;img src=&#34;https://monkyyy.science/images/tomate-normal.png&#34; alt=&#34;tomate-normal&#34; style=&#34;max-width: max-content&#34;&gt;
+
+&lt;img src=&#34;https://monkyyy.science/images/tomate-borked.png&#34; alt=&#34;tomate-borked&#34; style=&#34;max-width: max-content&#34;&gt;
+
+&lt;p&gt;Trash, unusable trash, awful, horrifying, jank. Its only collection of buttons and some numbers &lt;strong&gt;make it work&lt;/strong&gt;, it&amp;rsquo;s a touch tricky but getting it to work properly but isn&amp;rsquo;t rocket surgery.&lt;/p&gt;
+&lt;p&gt;Every app that doesn&amp;rsquo;t resize properly is something I have to consider when I set up a workspace. A constrant that shouldn&amp;rsquo;t exist.&lt;/p&gt;
+&lt;p&gt;Take &lt;a href=&#34;https://github.com/crazymonkyyy/pomodomo&#34;&gt;my&lt;/a&gt; timer app for example:&lt;/p&gt;
+
+&lt;img src=&#34;https://monkyyy.science/images/pomodomo-normal.png&#34; alt=&#34;pomodomo-normal&#34; style=&#34;max-width: max-content&#34;&gt;
+
+&lt;img src=&#34;https://monkyyy.science/images/pomodomo-borked.png&#34; alt=&#34;pomodomo-borked&#34; style=&#34;max-width: max-content&#34;&gt;
+
+&lt;img src=&#34;https://monkyyy.science/images/pomodomo-extra.png&#34; alt=&#34;pomodomo-extra&#34; style=&#34;max-width: max-content&#34;&gt;
+
+&lt;p&gt;Look it, varous sizes and all work; &lt;em&gt;rocket surgery&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Why? Why does mine work, when presumably the other one had more help from a toolkit and probably a less lazy dev; the &amp;ldquo;toolkits&amp;rdquo; are for floating wm&amp;rsquo;s, all of them.&lt;/p&gt;
-&lt;p&gt;For the unaware, programmers don&amp;rsquo;t remake everything from scratch, in this case, if your making a GUI app, you use a toolkit, a collection of software to make buttons and text and system theming work. They are usually tied to an OS or a desktop environment in the case of gtk and qt. In my opinion, its the benefit of a DE is having a toolkit define how to handle fonts and colors. Both the programmer and the user want a system color theme, I as a user don&amp;rsquo;t want half my apps to be blinding theme, and prefer dark themes.&lt;/p&gt;
+&lt;p&gt;For the unaware, programmers don&amp;rsquo;t remake everything from scratch, in this case, if your making a GUI app, you use a toolkit, a collection of software to make buttons and text and system theming work. They are usually tied to an OS or a desktop environment in the case of gtk and qt. In my opinion, its the benefit of a DE is having a toolkit define how to handle fonts and colors. Both the programmer and the user want a system color theme, I as a user don&amp;rsquo;t want half my apps to be blinding theme, and prefer dark themes.
+
+&lt;img src=&#34;https://monkyyy.science/images/notepad.png&#34; alt=&#34;notepad&#34; style=&#34;max-width: max-content&#34;&gt;
+&lt;img src=&#34;https://monkyyy.science/images/myeyes.gif&#34; alt=&#34;myeyes&#34; style=&#34;max-width: max-content&#34;&gt;
+&lt;/p&gt;
 &lt;p&gt;And I, as a programmer, don&amp;rsquo;t give a rats ass about color theory, let someone else solve the problem of picking colors. And really really do not want to deal with the madness that is font rendering.&lt;/p&gt;
 &lt;p&gt;So apps made with toolkits tend to fit nicely with their associated wm/os. But tiling wm&amp;rsquo;s don&amp;rsquo;t have one, at all. So the first order of business for making tiling better would be to make one, that places more emphasis on resizing. Which is actionable.&lt;/p&gt;
 </description>
@@ -41,10 +625,10 @@
    
      <item>
        <title>I want a tiling de part 2 your workflow</title>
-       <link>monkyyy.science/posts/i_want_a_tiling_de_part_2_your_workflow/</link>
+       <link>https://monkyyy.science/posts/i_want_a_tiling_de_part_2_your_workflow/</link>
        <pubDate>Mon, 19 Oct 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/i_want_a_tiling_de_part_2_your_workflow/</guid>
+       <guid>https://monkyyy.science/posts/i_want_a_tiling_de_part_2_your_workflow/</guid>
        <description>&lt;p&gt;Here&amp;rsquo;s the thing, you use janky tiling as is. It&amp;rsquo;s frankly rare to find someone engaging with their window manager.&lt;/p&gt;
 &lt;p&gt;I expect you to do a very small subset of actions with your computer:&lt;/p&gt;
 &lt;ol&gt;
@@ -60,18 +644,18 @@
 &lt;/ol&gt;
 &lt;p&gt;All of these while the window can in theory be defined by the user, in reality, you did a ritual you have the system do some math in the background to handle windowing for you; and really trivial things as well.&lt;/p&gt;
 &lt;p&gt;Ide&amp;rsquo;s are generally speaking two text editors split horizontally with a terminal. I have text editors and a terminal installed, and I like my actual terminal better than the usually subpar one.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;monkyyy.science/images/vscode-screenshot.gif&#34; alt=&#34;vscode-screenshot&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://monkyyy.science/images/vscode-screenshot.gif&#34; alt=&#34;vscode-screenshot&#34;&gt;&lt;/p&gt;
 &lt;p&gt;This is hardly uncommon:&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;monkyyy.science/images/bitwig.png&#34; alt=&#34;bitwig&#34;&gt;
-&lt;img src=&#34;monkyyy.science/images/blender.jpg&#34; alt=&#34;blender&#34;&gt;
-&lt;img src=&#34;monkyyy.science/images/cutemarked.png&#34; alt=&#34;cutemarked&#34;&gt;
-&lt;img src=&#34;monkyyy.science/images/gummi.png&#34; alt=&#34;gummi&#34;&gt;
-&lt;img src=&#34;monkyyy.science/images/Kdenlive.png&#34; alt=&#34;Kdenlive&#34;&gt;
-&lt;img src=&#34;monkyyy.science/images/toonz.png&#34; alt=&#34;toonz&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://monkyyy.science/images/bitwig.png&#34; alt=&#34;bitwig&#34;&gt;
+&lt;img src=&#34;https://monkyyy.science/images/blender.jpg&#34; alt=&#34;blender&#34;&gt;
+&lt;img src=&#34;https://monkyyy.science/images/cutemarked.png&#34; alt=&#34;cutemarked&#34;&gt;
+&lt;img src=&#34;https://monkyyy.science/images/gummi.png&#34; alt=&#34;gummi&#34;&gt;
+&lt;img src=&#34;https://monkyyy.science/images/Kdenlive.png&#34; alt=&#34;Kdenlive&#34;&gt;
+&lt;img src=&#34;https://monkyyy.science/images/toonz.png&#34; alt=&#34;toonz&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Generally speaking, you have a toolbar, split the window into half or thirds, if you hide something it&amp;rsquo;s with tabs. You&amp;rsquo;d need some sort of sane tabbing interface, but tabbing is something a window manager can do.&lt;/p&gt;
 &lt;p&gt;Yet every program must reimplement the logic, and you can&amp;rsquo;t replace the terrible bits, &lt;em&gt;you can&amp;rsquo;t compose your workflow&lt;/em&gt;. Its the half baked general idea that someone else thought poeple would like.&lt;/p&gt;
 &lt;p&gt;Your ide is awful like the something from JetBrains, which takes seconds to start up and likely crashes. My ide is a 10 line bash script, and I picked my text editor and terminal separately.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;monkyyy.science/images/bspwm.png&#34; alt=&#34;bspwm&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://monkyyy.science/images/bspwm.png&#34; alt=&#34;bspwm&#34;&gt;&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;cd $1
 textadept -f &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;ls&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt; &amp;amp;
 bspc node -p east --follow
@@ -87,10 +671,10 @@ alacritty --working-directory $1 &amp;amp;
    
      <item>
        <title>use my code</title>
-       <link>monkyyy.science/posts/use_my_code/</link>
+       <link>https://monkyyy.science/posts/use_my_code/</link>
        <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/use_my_code/</guid>
+       <guid>https://monkyyy.science/posts/use_my_code/</guid>
        <description>&lt;p&gt;So I&amp;rsquo;ve written some public code during my time with D but no one is using it, use my code(listed is rough order of quality)&lt;/p&gt;
 &lt;h3 id=&#34;range-matchhttpsgithubcomcrazymonkyyyrange-match&#34;&gt;&lt;a href=&#34;https://github.com/crazymonkyyy/range-match&#34;&gt;Range-match&lt;/a&gt;&lt;/h3&gt;
 &lt;p&gt;Range match, is a partial implementation of pattern matching. Focused on cleanly allowing complex &amp;ldquo;stuctured&amp;rdquo; programming. The main detail is that its requires the logic to be written using ranges such as 1&amp;lt;=x&amp;lt;=3. Replacing particularly nasty if-else chains.&lt;/p&gt;
@@ -106,10 +690,10 @@ alacritty --working-directory $1 &amp;amp;
    
      <item>
        <title>I want a tiling DE part 1</title>
-       <link>monkyyy.science/posts/i_want_a_tiling_de_part_1/</link>
+       <link>https://monkyyy.science/posts/i_want_a_tiling_de_part_1/</link>
        <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/i_want_a_tiling_de_part_1/</guid>
+       <guid>https://monkyyy.science/posts/i_want_a_tiling_de_part_1/</guid>
        <description>&lt;p&gt;I want a tiling desktop environment.&lt;/p&gt;
 &lt;p&gt;&amp;hellip; let me explain:&lt;/p&gt;
 &lt;p&gt;So you normal computer user, everything you&amp;rsquo;ve known was based on the &amp;ldquo;desktop metaphor&amp;rdquo;, your an office worker in the black and white days, and your work gets a doohicky that confuses you. You don&amp;rsquo;t have time to learn anything, you need to work on the documents and fax them to management. So they made a half baked translation of your old work into what computers are doing. It&amp;rsquo;s fucking awful, but its what they tried, so you would store your work in a filing cabinet, you would take labeled folders out of the filing cabinet to take to your desk and you would take files out of the folder to then edit; on your desktop. And for some godforsaken reason, because those papers would be moved manually, it was deemed more user friendly to make the &amp;ldquo;paper&amp;rdquo;/windows floating as if they were paper on a desk like fucking cavemen.&lt;/p&gt;
@@ -123,10 +707,10 @@ alacritty --working-directory $1 &amp;amp;
    
      <item>
        <title>brown folded eggs</title>
-       <link>monkyyy.science/posts/brown_folded_eggs/</link>
+       <link>https://monkyyy.science/posts/brown_folded_eggs/</link>
        <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/brown_folded_eggs/</guid>
+       <guid>https://monkyyy.science/posts/brown_folded_eggs/</guid>
        <description>&lt;p&gt;Sooo.. I like soft eggs, but traditionally the soft egg styles are reserved for fancy shit, french omelets, quite frankly I will not be beating eggs for 5 minutes for half a meal, listening for butter &amp;ldquo;singing&amp;rdquo;, or damaging a pan for a daily breakfest. Or &lt;a href=&#34;https://www.youtube.com/watch?v=ZCh1gnN_j-g&#34;&gt;tornado/dressed rice&lt;/a&gt;, also fantastic, but I don&amp;rsquo;t think I can twist my fingers to do that shit daily, and I don&amp;rsquo;t always have leftover rice.&lt;/p&gt;
 &lt;p&gt;A soft egg is a simple concept, high heat and move the finished eggs out of the way, yet the fear about undercooked eggs has pushed it to the edges; and I say NO.&lt;/p&gt;
 &lt;hr&gt;
@@ -139,10 +723,10 @@ alacritty --working-directory $1 &amp;amp;
    
      <item>
        <title>how should standard libs be managed</title>
-       <link>monkyyy.science/posts/how_should_standard_libs_be_managed/</link>
+       <link>https://monkyyy.science/posts/how_should_standard_libs_be_managed/</link>
        <pubDate>Wed, 16 Sep 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/how_should_standard_libs_be_managed/</guid>
+       <guid>https://monkyyy.science/posts/how_should_standard_libs_be_managed/</guid>
        <description>&lt;p&gt;So, an under appreciated feature of a lang is the std. Honestly at this point I think it could make or break a lang. Having a good std means its easy to write acceptable code from the gate.&lt;/p&gt;
 &lt;p&gt;C-style langs historically require immense effort to &lt;strong&gt;render&lt;/strong&gt; hello world, I believe this is the singular reason webshit is winning, because the js can draw things &amp;ldquo;easily&amp;rdquo; with the js os known as chromium. While C has these whole nightmares to make a cross platform ui. Why tho?, couldn&amp;rsquo;t you just have simple window rendering in the std? You probaly wouldn&amp;rsquo;t want to write a game engine with an std but text drawing and simple shapes should be there.&lt;/p&gt;
 &lt;p&gt;Also there was this whole mess with python with its trasition from 2 to 3. I&amp;rsquo;m fuzzy on the details but it sounds like they over did it and assumed far to much complience.&lt;/p&gt;
@@ -168,20 +752,20 @@ alacritty --working-directory $1 &amp;amp;
    
      <item>
        <title>email me</title>
-       <link>monkyyy.science/posts/email_me/</link>
+       <link>https://monkyyy.science/posts/email_me/</link>
        <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/email_me/</guid>
+       <guid>https://monkyyy.science/posts/email_me/</guid>
        <description>&lt;p&gt;Has anyone found this site yet? If so, email me at &lt;a href=&#34;mailto:monkyyy@cocaine.ninja&#34;&gt;monkyyy@cocaine.ninja&lt;/a&gt;&lt;/p&gt;
 </description>
      </item>
    
      <item>
        <title>web is bloat what would I do</title>
-       <link>monkyyy.science/posts/web_is_bloat_what_would_i_do/</link>
+       <link>https://monkyyy.science/posts/web_is_bloat_what_would_i_do/</link>
        <pubDate>Thu, 10 Sep 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/web_is_bloat_what_would_i_do/</guid>
+       <guid>https://monkyyy.science/posts/web_is_bloat_what_would_i_do/</guid>
        <description>&lt;p&gt;The webshit is webshit, I imagine anyone who manages to find this blog will agree that the socail media web is bad or is a &amp;ldquo;systems&amp;rdquo; programmer who looks at webshit with disgust; so not going into detail, so what would I replace it with?&lt;/p&gt;
 &lt;p&gt;I see 3 main tasks as part of the web:&lt;/p&gt;
 &lt;ol&gt;
@@ -216,10 +800,10 @@ alacritty --working-directory $1 &amp;amp;
    
      <item>
        <title>I want to go to an antimask protest</title>
-       <link>monkyyy.science/posts/i_want_to_go_to_an_antimask_protest/</link>
+       <link>https://monkyyy.science/posts/i_want_to_go_to_an_antimask_protest/</link>
        <pubDate>Fri, 04 Sep 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/i_want_to_go_to_an_antimask_protest/</guid>
+       <guid>https://monkyyy.science/posts/i_want_to_go_to_an_antimask_protest/</guid>
        <description>&lt;p&gt;Naturally, I&amp;rsquo;m a &amp;ldquo;covid-denier&amp;rdquo;; despite the fact I made a death toll prediction feb 5th before the medical estimement raised the alram, I did my speculating, made my conclusion, and stated it to an hyper critical audence saying I was anti-science for thinking it would be worse then sars. Dispite enaging with the most important bit of science I believe in, motivated prediction.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://ceasefire.net/post/a239z5/300000_poeple_will_die_this_year_from_corona_virus&#34;&gt;Yes really. I predicted 300,000 deaths on feb 5th I will not be letting any one in any agrument on the topic off without explaining why they didn&amp;rsquo;t have a reasonable attempt. Having the world disagree with you but being right is always suffocating.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&amp;hellip;. I fucking hate it all. Do none of you see the frenzy your in, the mental agony your in for a illness that doesn&amp;rsquo;t harm the young. Your very hard to love humanity.&lt;/p&gt;
@@ -233,10 +817,10 @@ alacritty --working-directory $1 &amp;amp;
    
      <item>
        <title>please stop the roits antifa</title>
-       <link>monkyyy.science/posts/please_stop_the_roits_antifa/</link>
+       <link>https://monkyyy.science/posts/please_stop_the_roits_antifa/</link>
        <pubDate>Mon, 31 Aug 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/please_stop_the_roits_antifa/</guid>
+       <guid>https://monkyyy.science/posts/please_stop_the_roits_antifa/</guid>
        <description>&lt;p&gt;When this started, there was a video of a man being killed by police officers that generally speaking everyone agreed was murder. Today, that fact is disputed, there was a 17 year old who was either kkk member or an americain hero depending on who you ask.&lt;/p&gt;
 &lt;p&gt;You went staight past, vague but consentous to improve the problem of police violence, to two competing thoeries of expanding police power.&lt;/p&gt;
 &lt;p&gt;The first is clear, trump is running on law and order. The arm of the repubicain party known as fox new has been showing images of voilence consistently.&lt;/p&gt;
@@ -247,10 +831,10 @@ alacritty --working-directory $1 &amp;amp;
    
      <item>
        <title>D is rather good at commandline bodging</title>
-       <link>monkyyy.science/posts/d_is_rather_good_at_commandline_bodging/</link>
+       <link>https://monkyyy.science/posts/d_is_rather_good_at_commandline_bodging/</link>
        <pubDate>Wed, 26 Aug 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/d_is_rather_good_at_commandline_bodging/</guid>
+       <guid>https://monkyyy.science/posts/d_is_rather_good_at_commandline_bodging/</guid>
        <description>&lt;p&gt;I have not seen this written down anywhere, and the pieces are seperated in the documation; But I assume it took effort to make pieces of this to work apperently correctly and comfy.&lt;/p&gt;
 &lt;h2 id=&#34;taking-command-line-input&#34;&gt;Taking command line input:&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-d&#34; data-lang=&#34;d&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;void&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;main&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;(&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;string&lt;/span&gt;&lt;span style=&#34;color:#f92672&#34;&gt;[]&lt;/span&gt; s&lt;span style=&#34;color:#f92672&#34;&gt;){&lt;/span&gt;
@@ -305,10 +889,10 @@ Read the fucking manual for bash tools and all that jazz.&lt;/p&gt;
    
      <item>
        <title>bash scripting 1</title>
-       <link>monkyyy.science/posts/bash_scripting_1/</link>
+       <link>https://monkyyy.science/posts/bash_scripting_1/</link>
        <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/bash_scripting_1/</guid>
+       <guid>https://monkyyy.science/posts/bash_scripting_1/</guid>
        <description>&lt;p&gt;So, in order to make writing a blog with images comfy I need a tool of some sort way to inject the infomation into the blog and set it up so it will be auto hosted.&lt;/p&gt;
 &lt;p&gt;A software maximalist would set up a drag and drop interface, you would take your screen shot run over to m$ paint, paste your screen shot, then go to you document folder and hope you find it quickly then you drag and drop into your webshit website editor.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;&lt;strong&gt;I will not be doing that.&lt;/strong&gt;&lt;/em&gt; Instead I will write a bash script; to start with I need to gather up the pieces to bodge together.&lt;/p&gt;
@@ -341,7 +925,7 @@ bash: chmod+x: command not found
 
 &lt;span style=&#34;color:#f92672&#34;&gt;[&lt;/span&gt;monkyyy@no bash&lt;span style=&#34;color:#f92672&#34;&gt;]&lt;/span&gt;$ chmod +x blogscreenshot
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;My hugo image folder is well&amp;hellip; I&amp;rsquo;ll copy and paste that
-&lt;img src=&#34;monkyyy.science/images/nemo_images_propertys.png&#34; alt=&#34;nemo_images_propertys&#34;&gt;&lt;/p&gt;
+&lt;img src=&#34;https://monkyyy.science/images/nemo_images_propertys.png&#34; alt=&#34;nemo_images_propertys&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Which I will need to format to make a cd command. Next man-paging scrot:&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;man scrot
 
@@ -373,20 +957,20 @@ pix $1.png
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;super + Print
   ./src/bash/blogscreenshot &lt;span style=&#34;color:#66d9ef&#34;&gt;$(&lt;/span&gt;zenity --entry&lt;span style=&#34;color:#66d9ef&#34;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;And like magic since I live in this opinionated miniumalist world, I can do something quite complex with quite a bit of automation, at any point by pushing super+printscreen.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;monkyyy.science/images/I_am_king.png&#34; alt=&#34;I_am_king&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://monkyyy.science/images/I_am_king.png&#34; alt=&#34;I_am_king&#34;&gt;&lt;/p&gt;
 &lt;p&gt;I will of course need to edit this to format it nicely and to get my numerous spelling mistakes but this is why I stay minimal. This probaly wasn&amp;rsquo;t the bestm but hopefully you can get the raw bodging attitude that you should take.&lt;/p&gt;
 </description>
      </item>
    
      <item>
        <title>up and running</title>
-       <link>monkyyy.science/posts/up_and_running/</link>
+       <link>https://monkyyy.science/posts/up_and_running/</link>
        <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/up_and_running/</guid>
+       <guid>https://monkyyy.science/posts/up_and_running/</guid>
        <description>&lt;p&gt;I believe I&amp;rsquo;ve fixed all the webshit issues. And this should just work.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;m a little unsure of the process to get images so here is me attemping to upload one&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;monkyyy.science/images/softwaresucks1.png&#34; alt=&#34;softwaresucks&#34;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://monkyyy.science/images/softwaresucks1.png&#34; alt=&#34;softwaresucks&#34;&gt;&lt;/p&gt;
 &lt;p&gt;Hey it works I can work with that, a little big but sure.&lt;/p&gt;
 &lt;p&gt;Lets see if I can publish it in under 2 minutes.&lt;/p&gt;
 </description>
@@ -394,10 +978,10 @@ pix $1.png
    
      <item>
        <title>Lysander Spooner is still relevant</title>
-       <link>monkyyy.science/posts/lysander_spooner_is_still_relivant/</link>
+       <link>https://monkyyy.science/posts/lysander_spooner_is_still_relivant/</link>
        <pubDate>Mon, 10 Aug 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/lysander_spooner_is_still_relivant/</guid>
+       <guid>https://monkyyy.science/posts/lysander_spooner_is_still_relivant/</guid>
        <description>&lt;p&gt;The world is still shit.&lt;/p&gt;
 &lt;p&gt;The naive look at history and think it is over, the holocaust can&amp;rsquo;t happen again, democracy is peak humanity, slavery ended and enjoying djanjo unchained and or the white giult football movie makes you a good person, good enough that you can go harass poeple on twitter in fact.&lt;/p&gt;
 &lt;p&gt;The naive may be slightly stiring in thier sleep this year, but make no mistake, &lt;em&gt;the majority will never wake, and the majority of those who wake will be groggy.&lt;/em&gt; Lets review some basic facts of the world:&lt;/p&gt;
@@ -425,10 +1009,10 @@ pix $1.png
    
      <item>
        <title>copy and paste imports in d</title>
-       <link>monkyyy.science/posts/copy_and_paste_imports_in_d/</link>
+       <link>https://monkyyy.science/posts/copy_and_paste_imports_in_d/</link>
        <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/copy_and_paste_imports_in_d/</guid>
+       <guid>https://monkyyy.science/posts/copy_and_paste_imports_in_d/</guid>
        <description>&lt;p&gt;Orginally when I was looking for a lang, I had a single red flag when looking at d&amp;rsquo;s web site; which when compared to other randomly selected webshit langs is amazing. However it still stands that the d devs shit on good parts of c, when allow me to be blunt &lt;strong&gt;&lt;em&gt;c is the best lang aviable;&lt;/em&gt;&lt;/strong&gt; thats more of a reflection on the other langs that exist, its really showing its age, but I stand by that statement until a suitable c replacement gets made.&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-md&#34; data-lang=&#34;md&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;&amp;gt; &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;We are better the c
 &lt;/span&gt;&lt;span style=&#34;font-style:italic&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;
@@ -460,10 +1044,10 @@ pix $1.png
    
      <item>
        <title>indroduction</title>
-       <link>monkyyy.science/posts/indroduction/</link>
+       <link>https://monkyyy.science/posts/indroduction/</link>
        <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
        
-       <guid>monkyyy.science/posts/indroduction/</guid>
+       <guid>https://monkyyy.science/posts/indroduction/</guid>
        <description>&lt;p&gt;Hello internet, I&amp;rsquo;m monkyyy, I&amp;rsquo;m an opinionated asshole. Welcome to my storage of opinions.&lt;/p&gt;
 &lt;p&gt;Eventually I may get an email for this site, or a comment section. But currently I&amp;rsquo;m just screaming into the void trying to be comfy while doing it. The world is censory out there, and all based on website that runs slow, drops infomation and don&amp;rsquo;t nesserily allow me to inline an image or cross out text.&lt;/p&gt;
 &lt;p&gt;I will probaly focus on my following opinions:&lt;/p&gt;
