@@ -1,0 +1,212 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>bash scripting 1</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="a blog by an anti-science conspiracy theorist, leave before your tainted by wrong think -helpful glowie" />
+<meta name="author" content="monkyyy" /><meta property="og:title" content="bash scripting 1" />
+<meta property="og:description" content="So, in order to make writing a blog with images comfy I need a tool of some sort way to inject the infomation into the blog and set it up so it will be auto hosted.
+A software maximalist would set up a drag and drop interface, you would take your screen shot run over to m$ paint, paste your screen shot, then go to you document folder and hope you find it quickly then you drag and drop into your webshit website editor." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://monkyyy.science/posts/bash_scripting_1/" />
+<meta property="article:published_time" content="2020-08-20T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-08-20T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="bash scripting 1"/>
+<meta name="twitter:description" content="So, in order to make writing a blog with images comfy I need a tool of some sort way to inject the infomation into the blog and set it up so it will be auto hosted.
+A software maximalist would set up a drag and drop interface, you would take your screen shot run over to m$ paint, paste your screen shot, then go to you document folder and hope you find it quickly then you drag and drop into your webshit website editor."/>
+
+<meta name="generator" content="Hugo 0.74.0" />
+    
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://monkyyy.science/fontawesome/css/all.min.css" />
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://monkyyy.science/css/styles-without-dark-mode.css" />
+  </head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="https://monkyyy.science/">monkyyy.science</a>
+            </h1>
+
+      <ul id="social-media">
+             <li>
+               <a href="https://github.com/crazymonkyyy" title="GitHub">
+               <i class="fab fa-github fa-lg"></i>
+               </a>
+             </li>
+      </ul>
+      
+      <p><em>taglines are spooks</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://monkyyy.science/categories">
+                <i class="fa-li fa  fa-lg"></i><span>Categories</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>bash scripting 1</h1>
+
+    
+      <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2020-08-20T00:00:00Z">Aug 20, 2020</time>
+        </li>
+        
+        <li>
+            Categories:
+            <em>
+                
+                    
+                    <a href="https://monkyyy.science/categories/bash">bash</a>
+                
+            </em>
+        </li>
+        
+
+        
+
+        <li>3 minutes read</li>
+    </ul>
+</aside>
+
+    
+
+    
+
+
+    <p>So, in order to make writing a blog with images comfy I need a tool of some sort way to inject the infomation into the blog and set it up so it will be auto hosted.</p>
+<p>A software maximalist would set up a drag and drop interface, you would take your screen shot run over to m$ paint, paste your screen shot, then go to you document folder and hope you find it quickly then you drag and drop into your webshit website editor.</p>
+<p><em><strong>I will not be doing that.</strong></em> Instead I will write a bash script; to start with I need to gather up the pieces to bodge together.</p>
+<hr>
+<p>From my last blog post the markdown syntax in hugo was</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-md" data-lang="md">![<span style="color:#f92672">bleh</span>](<span style="color:#a6e22e">bleh.png</span>)
+</code></pre></div><p>From past knowledge I know scrot has a &ldquo;click a window to screen shot it&rdquo; option.</p>
+<p>Zenity to pop up a text box.</p>
+<p>I&rsquo;ve been looking for a good image cropping resize tool. &ldquo;pix&rdquo; seems good enough, as it a) opens the image when give it from the command line and b) automaticly is happy with overwriting the file.</p>
+<p>And something that will boop something into my copy and paste. Looking into xclip I find this syntax.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;hello&#34;</span> | xclip -selection clipboard
+
+ctrl-v hello
+</code></pre></div><p>Well thats jank but whatever <strong>I&rsquo;ve grabed my tools.</strong> Time to unix them together.</p>
+<hr>
+<p>To start with I&rsquo;m going to go to my src/bash folder and touch and chmod a new file.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">[</span>monkyyy@no bash<span style="color:#f92672">]</span>$ touch hugoimagesyntax
+
+<span style="color:#f92672">[</span>monkyyy@no bash<span style="color:#f92672">]</span>$ chmod +x hugoimagesyntax
+</code></pre></div><p>Double checking the syntax, and that scrot tends to make png&rsquo;s I write</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo !<span style="color:#f92672">[</span>$1<span style="color:#f92672">](</span>$1.png<span style="color:#f92672">)</span>
+</code></pre></div><p>which unfornately clashes with bash, five tries later I got (and a post edit to make it link correct)</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">echo <span style="color:#e6db74">&#34;![&#34;</span>$1<span style="color:#e6db74">&#34;](/images/&#34;</span>$1<span style="color:#e6db74">&#34;.png)&#34;</span> | xclip -selection clipboard
+</code></pre></div><p>Moving on.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">[</span>monkyyy@no bash<span style="color:#f92672">]</span>$ touch blogscreenshot
+
+<span style="color:#f92672">[</span>monkyyy@no bash<span style="color:#f92672">]</span>$ chmod+x blogscreenshot
+
+bash: chmod+x: command not found
+
+<span style="color:#f92672">[</span>monkyyy@no bash<span style="color:#f92672">]</span>$ chmod +x blogscreenshot
+</code></pre></div><p>My hugo image folder is well&hellip; I&rsquo;ll copy and paste that
+<img src="https://monkyyy.science/images/nemo_images_propertys.png" alt="nemo_images_propertys"></p>
+<p>Which I will need to format to make a cd command. Next man-paging scrot:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">man scrot
+
+SYNOPSIS
+       scrot <span style="color:#f92672">[</span>options<span style="color:#f92672">]</span> <span style="color:#f92672">[</span>file<span style="color:#f92672">]</span>
+       
+       -s, --select
+              Interactively <span style="color:#66d9ef">select</span> a window or rectangle with the mouse.  See -l and  -f
+              options.
+</code></pre></div><p>So I try a few things but get this</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">cd ~/src/hugo/content/images
+scrot -s $1
+</code></pre></div><p>which seems to be working correctly. So I add:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">pix $1.png
+</code></pre></div><p>it unfornately errors out, probaly a racing error. Adding a sleep&hellip;.. and it also doesnt work.</p>
+<p>Wait no, scrot doesnt automaticly add .png ops.</p>
+<p>And lets end off with calling my earlier file, bring my script to this</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">cd ~/src/hugo/content/images
+scrot -s $1.png
+pix $1.png
+~/src/bash/hugoimagesyntax $1
+</code></pre></div><p>to finish things off I drop down to home to try to make a final command to put into my general system keybroad shortcut.</p>
+<p>Reading thru zenitys man page</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">--entry
+              Display text entry dialog
+</code></pre></div><p>then, wrapping it in $() to make it run correctly</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#f92672">[</span>monkyyy@no ~<span style="color:#f92672">]</span>$ ./src/bash/blogscreenshot <span style="color:#66d9ef">$(</span>zenity --entry<span style="color:#66d9ef">)</span>
+</code></pre></div><p>it seems to be working so I copy and paste it into my keybindings config, skhdx, or whatever it is; you should have something simuliar, if you don&rsquo;t get one; running arbitary commands on a key press is very useful.</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash">super + Print
+  ./src/bash/blogscreenshot <span style="color:#66d9ef">$(</span>zenity --entry<span style="color:#66d9ef">)</span>
+</code></pre></div><p>And like magic since I live in this opinionated miniumalist world, I can do something quite complex with quite a bit of automation, at any point by pushing super+printscreen.</p>
+<p><img src="https://monkyyy.science/images/I_am_king.png" alt="I_am_king"></p>
+<p>I will of course need to edit this to format it nicely and to get my numerous spelling mistakes but this is why I stay minimal. This probaly wasn&rsquo;t the bestm but hopefully you can get the raw bodging attitude that you should take.</p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://monkyyy.science/posts/up_and_running/"><i class="fa fa-chevron-circle-left"></i> up and running</a>
+        </li>
+        
+        
+        <li>
+            <a href="https://monkyyy.science/posts/d_is_rather_good_at_commandline_bodging/">D is rather good at commandline bodging <i class="fa fa-chevron-circle-right"></i> </a>
+        </li>
+        
+    </ul>
+</section>
+  
+    
+    
+  
+
+
+
+
+
+</main>
+    <footer>
+        <h6> |
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://monkyyy.scienceindex.xml">Subscribe </a></h6>
+    </footer>
+</div>
+<script src="https://monkyyy.science/js/scripts.js"></script>
+
+</body>
+
+</html>
+

@@ -1,0 +1,188 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <title>tiling DE part 3 The problem</title>
+  <meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="a blog by an anti-science conspiracy theorist, leave before your tainted by wrong think -helpful glowie" />
+<meta name="author" content="monkyyy" /><meta property="og:title" content="tiling DE part 3 The problem" />
+<meta property="og:description" content="So if tiling is so great why isn&rsquo;t everyone using it.
+  Everyone is in the habit of being wrong. Just generally.
+  Historical inertia. Most software that has been written to be in the standard floating environment.
+  Composing workflows means composing applications. Which are spotty in the general user space." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://monkyyy.science/posts/tiling_de_part_3_the_problem/" />
+<meta property="article:published_time" content="2020-10-21T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-10-21T00:00:00+00:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="tiling DE part 3 The problem"/>
+<meta name="twitter:description" content="So if tiling is so great why isn&rsquo;t everyone using it.
+  Everyone is in the habit of being wrong. Just generally.
+  Historical inertia. Most software that has been written to be in the standard floating environment.
+  Composing workflows means composing applications. Which are spotty in the general user space."/>
+
+<meta name="generator" content="Hugo 0.74.0" />
+    
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://monkyyy.science/fontawesome/css/all.min.css" />
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab|Ruda" />
+  
+  
+  <link rel="stylesheet" type="text/css" href="https://monkyyy.science/css/styles-without-dark-mode.css" />
+  </head>
+
+<body>
+  <div id="container">
+    <header>
+      <h1>
+                <a href="https://monkyyy.science/">monkyyy.science</a>
+            </h1>
+
+      <ul id="social-media">
+             <li>
+               <a href="https://github.com/crazymonkyyy" title="GitHub">
+               <i class="fab fa-github fa-lg"></i>
+               </a>
+             </li>
+      </ul>
+      
+      <p><em>taglines are spooks</em></p>
+      
+    </header>
+
+    
+<nav>
+    <ul>
+        
+        <li>
+            <a class="" href="https://monkyyy.science/categories">
+                <i class="fa-li fa  fa-lg"></i><span>Categories</span>
+            </a>
+        </li>
+        
+    </ul>
+</nav>
+
+
+    <main>
+
+
+
+
+<article>
+
+    <h1>tiling DE part 3 The problem</h1>
+
+    
+      <aside>
+    <ul>
+        <li>
+            <time class="post-date" datetime="2020-10-21T00:00:00Z">Oct 21, 2020</time>
+        </li>
+        
+        <li>
+            Categories:
+            <em>
+                
+                    
+                    <a href="https://monkyyy.science/categories/tiling">tiling</a>
+                
+            </em>
+        </li>
+        
+
+        
+
+        <li>2 minutes read</li>
+    </ul>
+</aside>
+
+    
+
+    
+
+
+    <p>So if tiling is so great why isn&rsquo;t everyone using it.</p>
+<p><img src="https://monkyyy.science/images/considerthefollowing.png" alt="considerthefollowing.png"></p>
+<ol>
+<li>
+<p>Everyone is in the habit of being wrong. Just generally.</p>
+</li>
+<li>
+<p>Historical inertia. Most software that has been written to be in the standard floating environment.</p>
+</li>
+<li>
+<p>Composing workflows means composing applications. Which are spotty in the general user space.</p>
+</li>
+</ol>
+<p>For example, look at this timer app given an unusual size:</p>
+
+<img src="https://monkyyy.science/images/tomate-normal.png" alt="tomate-normal" style="max-width: max-content">
+
+<img src="https://monkyyy.science/images/tomate-borked.png" alt="tomate-borked" style="max-width: max-content">
+
+<p>Trash, unusable trash, awful, horrifying, jank. Its only collection of buttons and some numbers <strong>make it work</strong>, it&rsquo;s a touch tricky but getting it to work properly but isn&rsquo;t rocket surgery.</p>
+<p>Every app that doesn&rsquo;t resize properly is something I have to consider when I set up a workspace. A constrant that shouldn&rsquo;t exist.</p>
+<p>Take <a href="https://github.com/crazymonkyyy/pomodomo">my</a> timer app for example:</p>
+
+<img src="https://monkyyy.science/images/pomodomo-normal.png" alt="pomodomo-normal" style="max-width: max-content">
+
+<img src="https://monkyyy.science/images/pomodomo-borked.png" alt="pomodomo-borked" style="max-width: max-content">
+
+<img src="https://monkyyy.science/images/pomodomo-extra.png" alt="pomodomo-extra" style="max-width: max-content">
+
+<p>Look it, varous sizes and all work; <em>rocket surgery</em></p>
+<p>Why? Why does mine work, when presumably the other one had more help from a toolkit and probably a less lazy dev; the &ldquo;toolkits&rdquo; are for floating wm&rsquo;s, all of them.</p>
+<p>For the unaware, programmers don&rsquo;t remake everything from scratch, in this case, if your making a GUI app, you use a toolkit, a collection of software to make buttons and text and system theming work. They are usually tied to an OS or a desktop environment in the case of gtk and qt. In my opinion, its the benefit of a DE is having a toolkit define how to handle fonts and colors. Both the programmer and the user want a system color theme, I as a user don&rsquo;t want half my apps to be blinding theme, and prefer dark themes.
+
+<img src="https://monkyyy.science/images/notepad.png" alt="notepad" style="max-width: max-content">
+<img src="https://monkyyy.science/images/myeyes.gif" alt="myeyes" style="max-width: max-content">
+</p>
+<p>And I, as a programmer, don&rsquo;t give a rats ass about color theory, let someone else solve the problem of picking colors. And really really do not want to deal with the madness that is font rendering.</p>
+<p>So apps made with toolkits tend to fit nicely with their associated wm/os. But tiling wm&rsquo;s don&rsquo;t have one, at all. So the first order of business for making tiling better would be to make one, that places more emphasis on resizing. Which is actionable.</p>
+
+
+</article>
+
+
+<section class="post-nav">
+    <ul>
+        
+        <li>
+            <a href="https://monkyyy.science/posts/i_want_a_tiling_de_part_2_your_workflow/"><i class="fa fa-chevron-circle-left"></i> I want a tiling de part 2 your workflow</a>
+        </li>
+        
+        
+        <li>
+            <a href="https://monkyyy.science/posts/what_i_want_from_metaprogramming/">What I want from metaprogramming <i class="fa fa-chevron-circle-right"></i> </a>
+        </li>
+        
+    </ul>
+</section>
+  
+    
+    
+  
+
+
+
+
+
+</main>
+    <footer>
+        <h6> |
+            Rendered by <a href="https://gohugo.io" title="Hugo">Hugo</a> |
+            <a href="https://monkyyy.scienceindex.xml">Subscribe </a></h6>
+    </footer>
+</div>
+<script src="https://monkyyy.science/js/scripts.js"></script>
+
+</body>
+
+</html>
+
