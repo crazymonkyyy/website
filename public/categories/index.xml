@@ -5,10 +5,100 @@
    <link>https://monkyyy.science/categories/</link>
    <description>Recent content in Categories on monkyyy.science</description>
    <generator>Hugo -- gohugo.io</generator>
-   <lastBuildDate>Thu, 22 Apr 2021 00:00:00 +0000</lastBuildDate>
+   <lastBuildDate>Sun, 16 May 2021 00:00:00 +0000</lastBuildDate>
    
        <atom:link href="https://monkyyy.science/categories/index.xml" rel="self" type="application/rss+xml" />
    
+   
+     <item>
+       <title>gender neutral she</title>
+       <link>https://monkyyy.science/posts/gender_neutral_she/</link>
+       <pubDate>Sun, 16 May 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/gender_neutral_she/</guid>
+       <description>&lt;p&gt;I HATE &amp;ldquo;gender neutral she&amp;rdquo;. It sounds prissy and academic.&lt;/p&gt;
+&lt;p&gt;If your so far gone in the socail justice to want to change languge away from &amp;ldquo;he&amp;rdquo;, use &amp;ldquo;singualr they&amp;rdquo; it sounds natural and is actaully understood to be gender nertural.&lt;/p&gt;
+&lt;p&gt;If you want to be formal use &amp;ldquo;he/she&amp;rdquo; or &amp;ldquo;s/he&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;If you want to be clear/traditional use &amp;ldquo;he&amp;rdquo;.&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Gender nurtral She&amp;rdquo; sounds like you an extermist feminist who thinks this minor lingistical ditail is a grave injustice to women and you wish to inflict it on men.&lt;/p&gt;
+&lt;p&gt;Programmers started to use singlaur they when having computers constucting sentences that may be missing gender infomation decades ago, its in my natural dilect and everyone who disagrees is wrong and I hate you.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>educated stupid</title>
+       <link>https://monkyyy.science/posts/educated_stupid/</link>
+       <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/educated_stupid/</guid>
+       <description>&lt;p&gt;The philosopher and theoretical physicist, Otis Eugene Ray offhandedly coined the term educated stupid to refer to people incorrect about the nature of reality from the overly simplified version taught in lower education, and needed to unlearn anti-knowledge that got in the way of further understanding.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m less informed on debates in theoretical physics and how much merit Gene has to be upset on the matter and won&amp;rsquo;t be commenting on physics, but I&amp;rsquo;d like to point out this problem exists in other fields of knowledge and maybe define it a bit more generally.&lt;/p&gt;
+&lt;p&gt;In an attempt to formalize this concept; I define educated stupid as: A practitioner to a system of thought able to produce complex arguments, but missing small details may produce worse answers than those nonfluent in the theory in demonstratable ways.&lt;/p&gt;
+&lt;p&gt;This is of course bais to the American pragmatism school of thought on what knowledge is, but&amp;hellip;.. I&amp;rsquo;m ranting, I digress.&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;In game theory, there was a paradigm of &amp;ldquo;causal decision theory&amp;rdquo; which as a premise assumed cause and effect flowed forward, therefore you would graph cause and effect and do some math on this causal graph to produce the correct answer oh how to correctly play games. Which is not unreasonable to believe, until you are made aware of those prisoners dilemmas. A causal decision theorist would declare that you should defect, after doing their math and graphing. But contests/experiments often should tit for tat varients do quite well, while &amp;ldquo;always defects&amp;rdquo; doesn&amp;rsquo;t.&lt;/p&gt;
+&lt;p&gt;So I would say that causal decision theorists are educated stupid; they have worse outcomes and &amp;ldquo;lose the plot&amp;rdquo; of their assumption that causality moves forward, in game theory it doesn&amp;rsquo;t, If I tell someone I will betray them they are likely to betray me preemptively. The causality can be and is in this case &amp;ldquo;wibbily wobbly timey wimey&amp;rdquo;. But they, the causal decision theorists formalized that assumption and forget they did so even when the question of this reality may be open to a game theory novice.&lt;/p&gt;
+&lt;p&gt;In computer science, there&amp;rsquo;s the statement that &amp;ldquo;in comparison sorts, you can&amp;rsquo;t do better than O(n logn)&amp;rdquo;, which is often shortened to simply &amp;ldquo;use sorts that are n logn&amp;rdquo;. But alas what if I told you there were non-comparison sorts, that naive people may be considering. So big O theory is also educated stupid. In a realistic programming environment, you grab a standard sort which will be n logn, if you want something faster you will then consider your data carefully to improve it; maybe you can use radix because you understand how to extract out digits from the data, getting a linear complexity. Maybe you know you&amp;rsquo;re maintaining a sort and you do something lazier. Maybe you separating out the data into groups and you don&amp;rsquo;t need a full sort to start with. All options that some taught to write you can&amp;rsquo;t be better than n logn may not consider.&lt;/p&gt;
+&lt;p&gt;There is a pattern here:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Something is said innocently enough, with a necessary but extant assumption.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;It is formalized and taught causally as an axiom, or ground truth when it isn&amp;rsquo;t.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The assumption is violated in a new classification of questions.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Those who think and learn by rote repeat incorrect answers, with the full force of confidence, history, and institutional knowledge.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;This is what religion is made of. And perhaps the main mechanism of scientism.&lt;/p&gt;
+</description>
+     </item>
+   
+     <item>
+       <title>wishlist for an overcooked editor</title>
+       <link>https://monkyyy.science/posts/wishlist_for_an_overcooked_editor/</link>
+       <pubDate>Thu, 06 May 2021 00:00:00 +0000</pubDate>
+       
+       <guid>https://monkyyy.science/posts/wishlist_for_an_overcooked_editor/</guid>
+       <description>&lt;p&gt;So, to write this blog I use word grinder + cool retro term, and its ok.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://monkyyy.science/images/wordgrinder.png&#34; alt=&#34;wordgrinder&#34;&gt;&lt;/p&gt;
+&lt;p&gt;but resently I found textreme and tried it out hopeful it was better.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://monkyyy.science/images/textreme.png&#34; alt=&#34;textreme&#34;&gt;&lt;/p&gt;
+&lt;p&gt;It wasnt&amp;hellip; as a text editor it was lacking basic features, an inablity to open a text file from the command line, so I couldn&amp;rsquo;t slot it into my scipts.&lt;/p&gt;
+&lt;p&gt;But its got me thinking about what I want, its not quite simplictity or a distraction free editor, I want something memey, A &lt;a href=&#34;https://www.youtube.com/watch?v=PFVL6t8IHE8&#34;&gt;&amp;ldquo;tetris effect&amp;rdquo; of a text editor&lt;/a&gt;; or an overcooked editors as I decided to coin with the title.&lt;/p&gt;
+&lt;p&gt;Heres a wish list if someone wants to make such a thing a reality:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Markdown ( or prehaphs &lt;a href=&#34;https://monkyyy.science/posts/monkyyy_markup/&#34;&gt;monkyyy markup&lt;/a&gt;) syntax styling&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Dark themes with maybe some color accents.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;shifting colors or random approved theme at start up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Screen saver style back grounds, ants simulations, planets, steal ideas from tetris effect? whatever something.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Nice clicky sound effects with key presses.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A timer if its idle for say a minute with an &amp;ldquo;&amp;gt;:( get back to typing&amp;rdquo; message.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sane command line behavior.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;autosaving&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+     </item>
    
      <item>
        <title>variable length data words</title>
