@@ -13,13 +13,13 @@ categories: ["vapid ranting"]
 
 I HATE "gender neutral she". It sounds prissy and academic.
 
-If your so far gone in the socail justice to want to change languge away from "he", use "singualr they" it sounds natural and is actaully understood to be gender nertural.
+If you are so far gone in the social justice to want to change language away from "he", use "singular they" it sounds natural and is actually understood to be gender neutral.
 
 If you want to be formal use "he/she" or "s/he".
 
 If you want to be clear/traditional use "he".
 
-"Gender nurtral She" sounds like you an extermist feminist who thinks this minor lingistical ditail is a grave injustice to women and you wish to inflict it on men.
+"Gender neutral She" sounds like you an extremist feminist who thinks this minor linguistical detail is a grave injustice to women and you wish to inflict it on men.
 
-Programmers started to use singlaur they when having computers constucting sentences that may be missing gender infomation decades ago, its in my natural dilect and everyone who disagrees is wrong and I hate you.
+Programmers started to use singular they when having computers constructing sentences that may be missing gender information decades ago, it's in my natural dialect and everyone who disagrees is wrong and I hate you.
 
