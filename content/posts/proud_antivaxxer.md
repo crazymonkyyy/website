@@ -27,6 +27,6 @@ Crazy idea: let's not open that Pandora's box of state mandating medical anythin
 
 That's not really what this rant is about, this image is a lovely fragment of something that happens all the time: Argument by definition.
 
-The pattern is simple: a word means evil, it could be racist, antivaxxer, fascist whatever; but with a, dare I say, sloppy definition and the argument for moral superiority in merely reduced to declaring something people may find distasteful about your takes and making it definitionally evil with a slit of hand
+The pattern is simple: a word means evil, it could be racist, antivaxxer, fascist whatever; but with a, dare I say, sloppy definition and the argument for moral superiority in merely reduced to declaring your takes as one such definition and making it definitionally evil with a sight of hand.
 
-My solution is simple enough, don't care; embrace the labels; if that lends the definitionally evil moral acceptance, maybe those who do this shit should be less "sophist"icated.
+My solution is simple enough, don't care; embrace the labels; if that lends the definitionally evil moral acceptance, maybe those who do this slit should be less "sophist"icated.
