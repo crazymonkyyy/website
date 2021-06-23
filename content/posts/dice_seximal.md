@@ -39,7 +39,7 @@ But there should be a standard for the digits so there's clarity, and I suggest 
 ```
 ## mod tables
 ```bash
-   ⚀,⚁,⚂,⚀,⚄
+   ⚁,⚂,⚀,⚄,⚀☐
   ┏━━━━━━━━━━
  ⚀┃⚀,⚀,⚀,⚀,⚀
  ⚁┃☐,⚁,⚁,⚁,⚁
