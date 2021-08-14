@@ -85,3 +85,5 @@ End of this semi tutorial.
 You import app into dson and copy button to global scope; breaking the tiny bit of abstraction even I thought was a good idea and it works \*unammused\*. Ask me how I knew how to fix that quickly /s.
 
 Anyway, hopeful this provided insight into how I think, taught you enough about zenity an option worth considering, and will work well enough to teach people how to use comfysettings.
+
+https://github.com/crazymonkyyy/infographic_blog_copy
