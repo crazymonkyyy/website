@@ -13,7 +13,7 @@ categories: ["programing","vapid"]
 
 I couldn't find it under any name and had to find it via trial and error, so here is the petal function, it statelessly places the petals of a flower:
 
-```d
+```c
 float centerx=windowx/2;//dont actaully pass these, make some compile time
 float centery=windowy/2;//or wrap the loop in a function
 float layer=4.7;
