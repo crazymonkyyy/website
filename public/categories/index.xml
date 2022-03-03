@@ -1,10 +1,332 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on My New Hugo Site</title>
-    <link>http://example.org/categories/</link>
-    <description>Recent content in Categories on My New Hugo Site</description>
+    <title>Categories on monkyyy.science</title>
+    <link>https://monkyyy.science/categories/</link>
+    <description>Recent content in Categories on monkyyy.science</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>1984©</copyright>
+    <lastBuildDate>Sun, 20 Feb 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://monkyyy.science/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>predictions</title>
+      <link>https://monkyyy.science/categories/predictions/</link>
+      <pubDate>Sun, 20 Feb 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/predictions/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>d</title>
+      <link>https://monkyyy.science/categories/d/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/d/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>dlang</title>
+      <link>https://monkyyy.science/categories/dlang/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/dlang/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://monkyyy.science/categories/programming/</link>
+      <pubDate>Fri, 28 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/programming/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>vapid ranting</title>
+      <link>https://monkyyy.science/categories/vapid-ranting/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/vapid-ranting/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>programing</title>
+      <link>https://monkyyy.science/categories/programing/</link>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/programing/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>vapid</title>
+      <link>https://monkyyy.science/categories/vapid/</link>
+      <pubDate>Sat, 20 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/vapid/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>politics</title>
+      <link>https://monkyyy.science/categories/politics/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/politics/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>unedited</title>
+      <link>https://monkyyy.science/categories/unedited/</link>
+      <pubDate>Sat, 02 Oct 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/unedited/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>5d</title>
+      <link>https://monkyyy.science/categories/5d/</link>
+      <pubDate>Sat, 11 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/5d/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>vapid vanting</title>
+      <link>https://monkyyy.science/categories/vapid-vanting/</link>
+      <pubDate>Thu, 02 Sep 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/vapid-vanting/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>myth</title>
+      <link>https://monkyyy.science/categories/myth/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/myth/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://monkyyy.science/categories/personal/</link>
+      <pubDate>Sun, 01 Aug 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/personal/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>steno</title>
+      <link>https://monkyyy.science/categories/steno/</link>
+      <pubDate>Sat, 17 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/steno/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>philosophy</title>
+      <link>https://monkyyy.science/categories/philosophy/</link>
+      <pubDate>Fri, 02 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/philosophy/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>scientism</title>
+      <link>https://monkyyy.science/categories/scientism/</link>
+      <pubDate>Mon, 28 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/scientism/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>seximal</title>
+      <link>https://monkyyy.science/categories/seximal/</link>
+      <pubDate>Wed, 23 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/seximal/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>vapid life</title>
+      <link>https://monkyyy.science/categories/vapid-life/</link>
+      <pubDate>Mon, 21 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/vapid-life/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>prediction</title>
+      <link>https://monkyyy.science/categories/prediction/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/prediction/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>sciencism</title>
+      <link>https://monkyyy.science/categories/sciencism/</link>
+      <pubDate>Mon, 14 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/sciencism/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>https://monkyyy.science/categories/linux/</link>
+      <pubDate>Sun, 06 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/linux/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>philosphy</title>
+      <link>https://monkyyy.science/categories/philosphy/</link>
+      <pubDate>Sun, 09 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/philosphy/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>asm speculation</title>
+      <link>https://monkyyy.science/categories/asm-speculation/</link>
+      <pubDate>Thu, 22 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/asm-speculation/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>ancap</title>
+      <link>https://monkyyy.science/categories/ancap/</link>
+      <pubDate>Thu, 08 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/ancap/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>games</title>
+      <link>https://monkyyy.science/categories/games/</link>
+      <pubDate>Sat, 06 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/games/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>webshit</title>
+      <link>https://monkyyy.science/categories/webshit/</link>
+      <pubDate>Thu, 04 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/webshit/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>devlog</title>
+      <link>https://monkyyy.science/categories/devlog/</link>
+      <pubDate>Fri, 05 Feb 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/devlog/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>tiling</title>
+      <link>https://monkyyy.science/categories/tiling/</link>
+      <pubDate>Wed, 21 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/tiling/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>cooking</title>
+      <link>https://monkyyy.science/categories/cooking/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/cooking/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>email</title>
+      <link>https://monkyyy.science/categories/email/</link>
+      <pubDate>Fri, 11 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/email/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://monkyyy.science/categories/bash/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/bash/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
+    <item>
+      <title>blog</title>
+      <link>https://monkyyy.science/categories/blog/</link>
+      <pubDate>Wed, 19 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://monkyyy.science/categories/blog/</guid>
+      <description></description>
+      <content></content>
+    </item>
+    
   </channel>
 </rss>
