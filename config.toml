@@ -6,7 +6,7 @@ theme = "terminal"
 [params]
   contentTypeName = "posts"
   themeColor = "blue"
-  showMenuItems = 3
+  showMenuItems = 20
   readingTime = true
   centerTheme = true
   #Toc = true
@@ -40,6 +40,14 @@ theme = "terminal"
 				name = "Projects"
 				url = "/projects"
 			[[languages.en.menu.main]]
-				identifier = "about"
+				identifier = "About"
 				name = "About"
-				url = "/about.html"
+				url = "/about"
+			[[languages.en.menu.main]]
+				identifier = "Categories"
+				name = "Categories"
+				url = "/categories"
+			[[languages.en.menu.main]]
+				identifier = "HIRE ME"
+				name = "HIRE ME"
+				url = "/hireme"
